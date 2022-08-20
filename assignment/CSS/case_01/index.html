@@ -9,11 +9,12 @@
 
             height: 100vh;
             width: 100vw;
-            border: 1px solid red;
+            position: relative;
+
 
         }
         main>section{
-            border: 1px solid red;
+
             height: 50vh;
             width: 50vw;
         }
@@ -21,13 +22,20 @@
             background: red;
         }
         main>section:nth-child(2){
-            background: yellow;
+            background: green;
         }
         main>section:nth-child(3){
-            background: green;
+
+            background: orange;
+            position: absolute;
+            right: 0;
+            top: 0;
         }
         main>section:last-child{
             background: deeppink;
+            position: absolute;
+            right: 0;
+            bottom: 0;
         }
     </style>
 </head>
