@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Web Layout</title>
+    <link href="assignment/CSS/normalize.css" rel="stylesheet">
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link href="assignment/CSS/case_02/assets/fav.png" rel="icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        header {
+            background: white;
+            box-shadow: 0px -1px 8px 2px #1c1717e8;
+            position: relative;
+            height: 73px;
+        }
+        header > img {
+            width: 190px;
+            position: relative;
+            top: 20px;
+            left: 10px;
+        }
+        header > nav {
+            position: absolute;
+            right: 40px;
+            top: 0;
+        }
+        header > nav > ul > li {
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px;
+            font-family: 'Poppins', sans-serif;
+            color: rgba(46, 41, 41, 0.96);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img alt="Logo" src="assignment/CSS/case_02/assets/ijse.png">
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
