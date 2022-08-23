@@ -5,7 +5,7 @@
     <title>Basic Web Layout</title>
     <link href="assignment/CSS/normalize.css" rel="stylesheet">
     <meta content="width=device-width initial-scale=1" name="viewport">
-    <link href="assignment/CSS/case_02/assets/fav.png" rel="icon">
+    <link href="assets/fav.png" rel="icon">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -99,11 +99,36 @@
             color: #e5e5e5;
             font-weight: lighter;
         }
+        main > section > section:first-child {
+            height: 300px;
+            position: relative;
+        }
+
+        main > section > section:first-child > div {
+            height: 100%;
+            width: calc(100% / 3);
+            position: absolute;
+            border: 1px solid rgba(0, 0, 0, 0.33);
+        }
+        main > section > section:first-child > div:nth-child(1) {
+            background: url("assets/gif.gif");
+            left: 0;
+        }
+
+        main > section > section:first-child > div:nth-child(2) {
+            background: url("assets/gif.gif");
+            left: calc(100%/3);
+        }
+
+        main > section > section:first-child > div:nth-child(3) {
+            background: url("assets/gif.gif");
+            right: 0;
+        }
     </style>
 </head>
 <body>
 <header>
-    <img alt="Logo" src="assignment/CSS/case_02/assets/ijse.png">
+    <img alt="Logo" src="assets/favicon.png">
     <nav>
         <ul>
             <li><i class="fa-solid fa-house"></i><a href="https://ijse.lk" target="_blank">Home</a></li>
