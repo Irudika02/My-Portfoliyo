@@ -32,3 +32,11 @@ nav>ul>li>a:hover{
     transition: .4s;
 
 }
+.main-image img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 80px;
+    top: 70px;
+    border-radius: 50%;
+}
