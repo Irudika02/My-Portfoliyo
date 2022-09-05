@@ -22,3 +22,13 @@ nav>ul>li{
     padding: 30px;
     font-size: 20px;
 }
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+
+}
+nav>ul>li>a:hover{
+    color: #ff253a;
+    transition: .4s;
+
+}
