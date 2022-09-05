@@ -55,9 +55,28 @@ nav>ul>li>a:hover{
     top: 0;
     right:0;
 }
-.main-box h3:first-child{
+.main-box h3:first-child {
     position: absolute;
     top: 10%;
     left: 8%;
     font-size: 40px;
     color: #43270E;
+}
+.main-box h2{
+    position: absolute;
+    top:30%;
+    left: 16%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #43270E;
+
+}
+.main-box h3:last-child{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #43270E;
+
+}
