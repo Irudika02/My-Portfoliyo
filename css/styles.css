@@ -47,3 +47,11 @@ nav>ul>li>a:hover{
     background: #E3D5C0;
     margin-top: 73px;
 }
+.main-box{
+    width: 700px;
+    height: 500px;
+    background: #EFE3D5;
+    position: absolute;
+    top: 0;
+    right:0;
+}
