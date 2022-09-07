@@ -235,3 +235,28 @@ tr td{
 
 
 }
+.skill-deatail div h5{
+    position: relative;
+    left:80px;
+    top: 20px;
+    font-size: 20px;
+}
+.skill-deatail div:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.button-read .button{
+    background-color:#694B1D;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    top: 54px;
+    position: relative;
+
+
+}
