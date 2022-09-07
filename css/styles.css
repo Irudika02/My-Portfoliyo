@@ -139,3 +139,21 @@ nav>ul>li>a:hover{
     margin-bottom: 50px;
     color: #43270E;
 }
+.main-about p:nth-child(2){
+    font-size: 30px;
+    width: 700px;
+    height: 70px;
+    position: relative;
+    left: 150px;
+    color: #43270E;
+    font-weight: bold;
+}
+.main-about p:last-child{
+    font-size: 20px;
+    width: 700px;
+    height: 70px;
+    position: relative;
+    left: 230px;
+    color: black;
+    font-weight: bold;
+}
