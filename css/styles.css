@@ -365,3 +365,22 @@ tr td{
     margin: auto;
     background: linear-gradient(180deg, #59412B 0%, rgba(224, 146, 74, 0.598958) 60.42%, rgba(217, 217, 217, 0) 100%);
 }
+.edu-box1, .edu-box2, .edu-box3{
+    height: 150px;
+    width: 450px;
+    padding: 16px 17px 35px;
+    background: #EFE3D5;
+    border-radius: 20px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.edu-box2{
+    position: relative;
+    align-self: self-end;
+    margin-left: 40px;
+}
