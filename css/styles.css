@@ -282,3 +282,14 @@ tr td{
     text-align: center;
 
 }
+.tools-box img{
+    width: 5%;
+    height: 10%;
+    margin: 50px 52px;
+    transition: transform .4s;
+
+}
+
+.tools-box img:hover{
+    transform: scale(2);
+}
