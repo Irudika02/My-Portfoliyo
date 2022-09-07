@@ -315,3 +315,25 @@ tr td{
     height: 500px;
 
 }
+.service2-box{
+    height: 400px;
+    width: 500px;
+    padding: 20px 35px;
+    background: #E3D5C0;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.service2-box img {
+    width:150px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.service2-box h5{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #694B1D;
+
+}
