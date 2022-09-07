@@ -420,3 +420,28 @@ tr td{
     text-align: center;
     padding-bottom: 50px;
 }
+.projects-detail{
+    display: flex;
+    font-size: 25px;
+    color: #694B1D;
+    padding: 50px 60px;
+    letter-spacing: 3px;
+}
+.my-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.system{
+    height: 300px;
+    width: 400px;
+    padding: 20px 35px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    margin: 25px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
