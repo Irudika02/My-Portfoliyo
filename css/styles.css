@@ -341,3 +341,27 @@ tr td{
     line-height:20px;
     margin-bottom: 35px;
 }
+.education{
+    width: 100%;
+    padding: 100px 0px;
+    background: #E3D5C0;
+
+}
+.education-text h2{
+    color: black;
+    font-size: 50px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.education-box{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    top: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    background: linear-gradient(180deg, #59412B 0%, rgba(224, 146, 74, 0.598958) 60.42%, rgba(217, 217, 217, 0) 100%);
+}
