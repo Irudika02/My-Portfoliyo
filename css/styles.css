@@ -181,3 +181,31 @@ tr td{
     padding-top: 50px;
     font-size: 20px;
 }
+.myskills-text h2{
+    color: black;
+    font-size: 50px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.skill{
+    width: 100%;
+    padding: 100px 0px;
+    background: #E3D5C0;
+
+}
+.skill section:nth-child(2){
+    width: 900px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns:repeat(4,1fr);
+    gap: 50px;
+}
