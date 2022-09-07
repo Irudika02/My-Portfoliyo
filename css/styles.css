@@ -209,3 +209,29 @@ tr td{
     grid-template-columns:repeat(4,1fr);
     gap: 50px;
 }
+.skill section:nth-child(2) div{
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.50);
+    background: linear-gradient(180deg, #7C6243 0%, rgba(124, 98, 67, 0) 100%);
+
+}
+.skill-deatail img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    margin: auto;
+
+}
+.skill-deatail div h4{
+    position: relative;
+    width: 70px;
+    height: 30px;
+    left:60px;
+    top: 20px;
+    font-size: 20px;
+
+
+}
