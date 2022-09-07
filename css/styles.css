@@ -260,3 +260,25 @@ tr td{
 
 
 }
+.tools{
+    width: 100%;
+    padding: 100px 0px;
+    background: #E3D5C0;
+
+}
+.tools-image h2{
+    color:#694B1D;
+    font-size: 30px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.tools-box{
+    border-radius: 20px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
