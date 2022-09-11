@@ -68,7 +68,7 @@ nav>ul>li>a:hover{
     left: 16%;
     font-size: 50px;
     font-weight: bold;
-    color: #43270E;
+
 
 }
 .main-box h3:last-child{
@@ -80,6 +80,7 @@ nav>ul>li>a:hover{
     color: #43270E;
 
 }
+
 .hero aside{
     position: absolute;
     bottom: 30%;
@@ -114,6 +115,18 @@ nav>ul>li>a:hover{
     margin: 10px auto;
     text-align: center;
     padding-bottom: 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: back;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        font-size: 20px;
+    }
+
 }
 .about-box img{
     width: 400px;
@@ -188,6 +201,18 @@ tr td{
     margin: 10px auto;
     text-align: center;
     padding-bottom: 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: back;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        font-size: 20px;
+    }
+
 }
 .skill{
     width: 100%;
@@ -306,6 +331,18 @@ tr td{
     margin: 10px auto;
     text-align: center;
     padding-bottom: 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: back;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        font-size: 20px;
+    }
+
 }
 
 .service-box {
@@ -330,6 +367,7 @@ tr td{
     width:150px;
     height: 100px;
     margin-bottom: 30px;
+    border-radius: 40%;
 }
 .service2-box h5{
     font-size: 30px;
@@ -354,6 +392,18 @@ tr td{
     margin: 10px auto;
     text-align: center;
     padding-bottom: 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: back;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        font-size: 20px;
+    }
+
 }
 .education-box{
     width: 1000px;
@@ -419,6 +469,18 @@ tr td{
     margin: 10px auto;
     text-align: center;
     padding-bottom: 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: back;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        font-size: 20px;
+    }
+
 }
 .projects-detail{
     display: flex;
@@ -500,7 +562,20 @@ tr td{
     margin: 10px auto;
     text-align: center;
     padding-bottom: 50px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: back;
+
 }
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+        font-size: 20px;
+    }
+
+}
+
 .contacts-box {
     width: 1200px;
     height: 950px;
