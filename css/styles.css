@@ -968,3 +968,42 @@ footer p:nth-child(2){
         width: 1036px;
 }
 }
+@media  screen and (max-width: 768px) {
+    nav>ul>li {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .main-box {
+        width: 488px;
+        height: 453px;
+
+    }
+    .main-image img {
+        width: 244px;
+        height: 243px;
+        left: 13px;
+    }
+    .main-box h3:first-child {
+        font-size: 30px;
+
+    }
+    .main-box h2 {
+
+        font-size: 30px;
+      left: 15%;
+    }
+    .main-box h3:last-child {
+        top: 40%;
+        right: 30%;
+        font-size: 20px;
+
+    }
+    .hero aside i {
+        font-size: 30px;
+        margin: 48px 25px;
+    }
+    .hero aside h4 {
+        font-size: 20px;
+        margin: -3px 154px;
+    }
+}
