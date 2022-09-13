@@ -872,4 +872,49 @@ footer p:nth-child(2){
         height: 348px;
         left: 36px;
     }
+    .main-box {
+        width: 648px;
+        height: 471px;
+
+    }
+    .hero aside {
+        bottom: 30%;
+    }
+    .about-box img {
+        width: 380px;
+        height: 385px;
+    }
+    .name-box {
+        width: 453px;
+        height: 236px;
+        margin-left: 125px;
+    }
+    tr td:first-child {
+        padding-right: 80px;
+    }
+    .skill section:nth-child(2) {
+        margin-right: 59px;
+    }
+    .button-read .button {
+        margin-left: 471px;
+    }
+    .tools-box {
+        margin-left: 51px;
+    }
+    .service-box {
+        margin-left: -2px;
+    }
+    .education-box {
+        width: 947px;
+        height: 497px;
+        left: -6px;
+    }
+    .edu-box3 {
+        height: 200px;
+        width: 428px;
+    }
+    .projects-detail {
+        padding: 56px 80px;
+        margin-left: 80px;
+    }
 }
