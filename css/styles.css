@@ -475,13 +475,28 @@ tr td{
     animation-name: back;
 
 }
-@keyframes back{
-    100%{
+
+
+
+
+
+
+
+
+
+
+@keyframes back {
+    100% {
         background-position: 2000px 0;
         font-size: 20px;
     }
 
-}
+}.hero aside {
+     position: absolute;
+     /* bottom: 30%; */
+     bottom: 40%;
+     right: 10%;
+ }
 .projects-detail{
     display: flex;
     font-size: 25px;
@@ -707,4 +722,154 @@ footer p:nth-child(2){
     width: 1200px;
     text-align: center;
     line-height: 26px;
+}
+@media  screen and (max-width: 1440px) {
+    .main-image img {
+
+        left: 182px;
+    }
+
+    .main-box h2 {
+
+        left: 10%;
+    }
+
+    .main-about p:nth-child(2) {
+
+        left: 203px;
+    }
+
+    .main-about p:last-child {
+
+        left: 309px;
+    }
+
+    .name-box {
+
+        margin-left: 241px;
+    }
+
+    tr td:first-child {
+        padding-right: 122px;
+    }
+
+    .button-read .button {
+
+        margin-left: 744px;
+        top: 97px;
+
+    }
+
+    .projects-detail {
+
+        padding: 53px 208px;
+        margin-left: 80px;
+
+    }
+
+    .system {
+        height: 286px;
+        width: 329px;
+        margin: 16px;
+
+    }
+
+    .system img {
+        width: 211px;
+        height: 203px;
+    }
+
+    .button-view .button {
+
+        margin-left: 682px;
+
+    }
+
+    .git-paragrah p:nth-child(1) {
+
+        padding-left: 324px;
+    }
+
+    .contacts-box {
+        width: 1055px;
+        height: 941px;
+
+        left: 88px;
+    }
+
+    my-projects {
+
+        margin-left: 120px;
+    }
+
+    .education-box {
+        width: 1104px;
+        height: 510px;
+        left: 88px;
+
+    }
+
+    .main-about h2 {
+        margin-right: 79px;
+    }
+
+    .hero aside {
+        bottom: 40%;
+    }
+
+    .myskills-text h2 {
+        margin-right: 79px;
+    }
+
+    .skill section:nth-child(2) {
+        margin-right: 189px;
+    }
+
+    .service2-box {
+        height: 400px;
+        width: 238px;
+        margin: 19px;
+
+    }
+
+    .service-box {
+        margin-left: 130px;
+    }
+
+    .my-services h2 {
+        margin-right: 79px;
+    }
+
+    .education-text h2 {
+        margin-right: 79px;
+    }
+
+    .projects-text h2 {
+        margin-right: 79px;
+    }
+
+    .my-projects {
+
+        margin-left: 140px;
+    }
+
+    .contacts-text h2 {
+        margin-right: 79px;
+    }
+
+    .tools-image h2 {
+        margin-right: 79px;
+    }
+
+    .tools-box {
+        margin-left: 195px;
+        margin-right: 0px
+    }
+}
+@media  screen and (max-width: 1024px) {
+    .main-image img {
+        width: 332px;
+        height: 348px;
+        left: 36px;
+    }
 }
