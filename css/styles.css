@@ -917,4 +917,54 @@ footer p:nth-child(2){
         padding: 56px 80px;
         margin-left: 80px;
     }
+    .my-projects {
+        margin-left: 17px;
+    }
+    .system img {
+        width: 185px;
+        height: 157px;
+    }
+    .button-view .button {
+        margin-left: 478px;
+    }
+    .git-paragrah p:nth-child(1) {
+        padding-left: 82px;
+    }
+    .contacts-box {
+        width: 903px;
+        height: 901px;
+        left: -4px;
+    }
+    footer p:nth-child(2) {
+        color: black;
+        font-size: 20px;
+        width: 1200px;
+}
+    footer p:nth-child(1) {
+        font-size: 20px;
+    }
+    footer {
+        height: 91px;
+    }
+    .main-about h2 {
+        width: 1036px;
+    }
+    .myskills-text h2 {
+        width: 1036px;
+    }
+    .tools-image h2 {
+        width: 1082px;
+    }
+    .my-services h2 {
+        width: 1036px;
+    }
+    .education-text h2{
+        width: 1036px;
+    }
+    .projects-text h2 {
+        width: 1036px;
+    }
+    .contacts-text h2 {
+        width: 1036px;
+}
 }
