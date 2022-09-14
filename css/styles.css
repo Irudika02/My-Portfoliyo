@@ -1274,73 +1274,104 @@ footer p:nth-child(2){
         width: 761px;
         font-size: 30px;
     }
-/*    .education-box {*/
-/*        width: 602px;*/
-/*        height: 487px;*/
-/*        left: -7px;*/
-/*    }*/
-/*    .projects-text h2 {*/
-/*        width: 761px;*/
-/*        font-size: 30px;*/
-/*    }*/
-/*    .projects-detail {*/
-/*        padding: 67px 3px;*/
-/*        margin-left: 80px;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    .system img {*/
-/*        width: 102px;*/
-/*        height: 97px;*/
-/*    }*/
-/*    .system {*/
-/*        height: 202px;*/
-/*        width: 254px;*/
-/*        margin: 32px;*/
-/*    }*/
-/*    .my-projects {*/
+    .education-box {
+        width: 602px;
+        height: 487px;
+        left: -7px;
+    }
+    .projects-text h2 {
+        width: 761px;
+        font-size: 30px;
+    }
+    .projects-detail {
+        padding: 67px 3px;
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    .edu-box1, .edu-box2, .edu-box3 {
+        height: 200px;
+        width: 251px;
+        padding: -1px 39px 23px;
+        margin: 18px;
+        font-size: 13px;
+    }
+    .system img {
+        width: 102px;
+        height: 97px;
+    }
+    .system {
+        height: 202px;
+        width: 254px;
+        margin: 32px;
+    }
+    .my-projects {
 
-/*        height: 423px;*/
+        height: 423px;
 
-/*    }*/
-/*    .button-view .button {*/
-/*        margin-left: 320px;*/
-/*    }*/
-/*    .git-paragrah p:nth-child(1) {*/
-/*        padding-left: 40px;*/
-/*        font-size: 20px;*/
+    }
+    .system {
+        height: 172px;
+        width: 167px;
+        margin: 35px;
+        top:0;
+    }
+    .system img {
+        width: 91px;
+        height: 82px;
+    }
+    .system {
 
-/*    }*/
-/*    .git-button .gitbut {*/
+        padding: 5px 37px;
+    }
+    .button-view .button {
+        margin-left: 320px;
+    }
+    .git-paragrah p:nth-child(1) {
+        padding-left: 40px;
+        font-size: 20px;
 
-/*        padding: 10px 14px;*/
-/*        margin-left: 200px;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    .contacts-text h2 {*/
-/*        width: 761px;*/
-/*        font-size: 30px;*/
+    }
+    .git-button .gitbut {
 
-/*    }*/
-/*    .contacts-box {*/
-/*        width: 668px;*/
-/*        height: 844px;*/
-/*        left: 1px;*/
-/*    }*/
-/*    .box-1 i {*/
-/*        font-size: 25px;*/
-/*        margin-top: 22px;*/
-/*        padding: 20px;*/
-/*    }*/
-/*    #input01, #input02, #input03, #input04 {*/
-/*        padding: 4px;*/
-/*        margin-left: 30px;*/
-/*    }*/
-/*    .contactForm button {*/
+        padding: 10px 14px;
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .contacts-text h2 {
+        width: 761px;
 
-/*        padding: 4px 23px;*/
+    }
+    .contacts-box {
+        width: 668px;
+        height: 844px;
+        left: 1px;
+    }
+    .box-1 i {
+        font-size: 25px;
+        margin-top: 22px;
+        padding: 20px;
+    }
+    #input01, #input02, #input03, #input04 {
+        padding: 4px;
+        margin-left: 30px;
+    }
+    .contactForm button {
+
+        padding: 4px 23px;
 
 
-/*        margin-left: 200px;*/
+        margin-left: 83px;
 
-/*    }*/
-/*}*/
+    }
+    .contact-me p {
+        font-size: 20px;
+    }
+    .contact-me img {
+        margin-left: 102px;
+        margin-top: 71px;
+    }
+    footer p:nth-child(1) {
+        font-size: 25px;
+
+    }
+}
