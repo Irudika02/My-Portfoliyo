@@ -353,7 +353,7 @@ tr td{
 
 }
 .service2-box{
-    height: 400px;
+    height: 528px;
     width: 500px;
     padding: 20px 35px;
     background: #E3D5C0;
@@ -724,149 +724,156 @@ footer p:nth-child(2){
     line-height: 26px;
 }
 @media  screen and (max-width: 1440px) {
-    .main-image img {
-
-        left: 182px;
-    }
-
-    .main-box h2 {
-
-        left: 10%;
-    }
-
-    .main-about p:nth-child(2) {
-
-        left: 203px;
-    }
-
-    .main-about p:last-child {
-
-        left: 309px;
-    }
-
-    .name-box {
-
-        margin-left: 241px;
-    }
-
-    tr td:first-child {
-        padding-right: 122px;
-    }
-
     .button-read .button {
-
-        margin-left: 744px;
-        top: 97px;
-
-    }
-
-    .projects-detail {
-
-        padding: 53px 208px;
-        margin-left: 80px;
-
-    }
-
-    .system {
-        height: 286px;
-        width: 329px;
-        margin: 16px;
-
-    }
-
-    .system img {
-        width: 211px;
-        height: 203px;
-    }
-
-    .button-view .button {
-
-        margin-left: 682px;
-
-    }
-
-    .git-paragrah p:nth-child(1) {
-
-        padding-left: 324px;
-    }
-
-    .contacts-box {
-        width: 1055px;
-        height: 941px;
-
-        left: 88px;
-    }
-
-    my-projects {
-
-        margin-left: 120px;
-    }
-
-    .education-box {
-        width: 1104px;
-        height: 510px;
-        left: 88px;
-
-    }
-
-    .main-about h2 {
-        margin-right: 79px;
-    }
-
-    .hero aside {
-        bottom: 40%;
-    }
-
-    .myskills-text h2 {
-        margin-right: 79px;
-    }
-
-    .skill section:nth-child(2) {
-        margin-right: 189px;
-    }
-
-    .service2-box {
-        height: 400px;
-        width: 238px;
-        margin: 19px;
-
-    }
-
-    .service-box {
-        margin-left: 130px;
-    }
-
-    .my-services h2 {
-        margin-right: 79px;
-    }
-
-    .education-text h2 {
-        margin-right: 79px;
-    }
-
-    .projects-text h2 {
-        margin-right: 79px;
-    }
-
-    .my-projects {
-
-        margin-left: 140px;
-    }
-
-    .contacts-text h2 {
-        margin-right: 79px;
-    }
-
-    .tools-image h2 {
-        margin-right: 79px;
-    }
-
-    .tools-box {
-        margin-left: 195px;
-        margin-right: 0px
+        margin-left: 663px;
     }
 }
+/*    .main-image img {*/
+
+/*        left: 182px;*/
+/*    }*/
+
+/*    .main-box h2 {*/
+
+/*        left: 10%;*/
+/*    }*/
+
+/*    .main-about p:nth-child(2) {*/
+
+/*        left: 203px;*/
+/*    }*/
+
+/*    .main-about p:last-child {*/
+
+/*        left: 309px;*/
+/*    }*/
+
+/*    .name-box {*/
+
+/*        margin-left: 241px;*/
+/*    }*/
+
+/*    tr td:first-child {*/
+/*        padding-right: 122px;*/
+/*    }*/
+
+/*    .button-read .button {*/
+
+/*        margin-left: 744px;*/
+/*        top: 97px;*/
+
+/*    }*/
+
+/*    .projects-detail {*/
+
+/*        padding: 53px 208px;*/
+/*        margin-left: 80px;*/
+
+/*    }*/
+
+/*    .system {*/
+/*        height: 286px;*/
+/*        width: 329px;*/
+/*        margin: 16px;*/
+
+/*    }*/
+
+/*    .system img {*/
+/*        width: 211px;*/
+/*        height: 203px;*/
+/*    }*/
+
+/*    .button-view .button {*/
+
+/*        margin-left: 682px;*/
+
+/*    }*/
+
+/*    .git-paragrah p:nth-child(1) {*/
+
+/*        padding-left: 324px;*/
+/*    }*/
+
+/*    .contacts-box {*/
+/*        width: 1055px;*/
+/*        height: 941px;*/
+
+/*        left: 88px;*/
+/*    }*/
+
+/*    my-projects {*/
+
+/*        margin-left: 120px;*/
+/*    }*/
+
+/*    .education-box {*/
+/*        width: 1104px;*/
+/*        height: 510px;*/
+/*        left: 88px;*/
+
+/*    }*/
+
+/*    .main-about h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .hero aside {*/
+/*        bottom: 40%;*/
+/*    }*/
+
+/*    .myskills-text h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .skill section:nth-child(2) {*/
+/*        margin-right: 189px;*/
+/*    }*/
+
+/*    .service2-box {*/
+/*        height: 400px;*/
+/*        width: 238px;*/
+/*        margin: 19px;*/
+
+/*    }*/
+
+/*    .service-box {*/
+/*        margin-left: 130px;*/
+/*    }*/
+
+/*    .my-services h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .education-text h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .projects-text h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .my-projects {*/
+
+/*        margin-left: 140px;*/
+/*    }*/
+
+/*    .contacts-text h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .tools-image h2 {*/
+/*        margin-right: 79px;*/
+/*    }*/
+
+/*    .tools-box {*/
+/*        margin-left: 195px;*/
+/*        margin-right: 0px*/
+/*    }*/
+/*}*/
 @media  screen and (max-width: 1024px) {
+    .main-box h2 {
+        font-size: 40px;
+    }
     .main-image img {
         width: 332px;
         height: 348px;
@@ -874,6 +881,7 @@ footer p:nth-child(2){
     }
     .main-about h2 {
         width: 996px;
+
     }
     .main-about p:nth-child(2) {
         left: -4px;
@@ -933,28 +941,7 @@ footer p:nth-child(2){
     .hero aside {
         bottom: 30%;
     }
-    /*.main-about h2 {*/
-    /*    width: 996px;*/
-    /*}*/
-    /*.myskills-text h2 {*/
-    /*    width: 988px;*/
-    /*}*/
-    /*.my-services h2 {*/
-    /*    width: 989px;*/
-    /*}*/
-    /*.education-text h2 {*/
-    /*    width: 997px;*/
-    /*}*/
-/*    .projects-text h2 {*/
-/*        width: 994px;*/
-/*    }*/
-/*    .contacts-text h2 {*/
-/*        width: 990px;*/
-/*    }*/
-/*    footer p:nth-child(2) {*/
 
-/*         width: 957px;*/
-/*     }*/
     .about-box img {
         width: 380px;
         height: 385px;
@@ -982,9 +969,11 @@ footer p:nth-child(2){
     }
     .main-about h2 {
         width: 1019px;
+        font-size: 40px;
     }
     .myskills-text h2 {
         width: 1019px;
+        font-size: 40px;
     }
     .skill section:nth-child(2) {
         margin-right: 64px;
@@ -1005,12 +994,14 @@ footer p:nth-child(2){
     }
     .tools-image h2 {
         width: 1019px;
+        font-size: 30px;
     }
     .tools-box {
         margin-left: 5px;
     }
     .my-services h2 {
         width: 1019px;
+        font-size: 40px;
     }
     .service2-box h5 {
         font-size: 20px;
@@ -1027,6 +1018,7 @@ footer p:nth-child(2){
     }
     .education-text h2 {
         width: 1019px;
+        font-size: 40px;
 
     }
     .education-box {
@@ -1041,6 +1033,7 @@ footer p:nth-child(2){
     }
     .projects-text h2 {
         width: 1019px;
+        font-size: 40px;
     }
     .projects-detail {
         padding: 56px 39px;
@@ -1086,123 +1079,104 @@ footer p:nth-child(2){
     footer p:nth-child(2) {
 
         font-size: 20px;
-    /*tr td:first-child {*/
-    /*    padding-right: 80px;*/
-    /*}*/
-    /*.skill section:nth-child(2) {*/
-    /*    margin-right: 59px;*/
-    /*}*/
-/*    .button-read .button {*/
-/*        margin-left: 471px;*/
-/*    }*/
-/*    .tools-box {*/
-/*        margin-left: 51px;*/
-/*    }*/
-/*    .service-box {*/
-/*        margin-left: -2px;*/
-/*    }*/
-/*    .education-box {*/
-/*        width: 947px;*/
-/*        height: 497px;*/
-/*        left: -6px;*/
-/*    }*/
-/*    .edu-box3 {*/
-/*        height: 200px;*/
-/*        width: 428px;*/
-/*    }*/
-/*    .projects-detail {*/
-/*        padding: 56px 80px;*/
-/*        margin-left: 80px;*/
-/*    }*/
-/*    .my-projects {*/
-/*        margin-left: 17px;*/
-/*    }*/
-/*    .system img {*/
-/*        width: 185px;*/
-/*        height: 157px;*/
-/*    }*/
-/*    .button-view .button {*/
-/*        margin-left: 478px;*/
-/*    }*/
-/*    .git-paragrah p:nth-child(1) {*/
-/*        padding-left: 82px;*/
-/*    }*/
-/*    .contacts-box {*/
-/*        width: 903px;*/
-/*        height: 901px;*/
-/*        left: -4px;*/
-/*    }*/
-/*    footer p:nth-child(2) {*/
-/*        color: black;*/
-/*        font-size: 20px;*/
-/*        width: 1200px;*/
-/*}*/
-/*    footer p:nth-child(1) {*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    footer {*/
-/*        height: 91px;*/
-/*    }*/
-/*    .main-about h2 {*/
-/*        width: 1036px;*/
-/*    }*/
-/*    .myskills-text h2 {*/
-/*        width: 1036px;*/
-/*    }*/
-/*    .tools-image h2 {*/
-/*        width: 1082px;*/
-/*    }*/
-/*    .my-services h2 {*/
-/*        width: 1036px;*/
-/*    }*/
-/*    .education-text h2{*/
-/*        width: 1036px;*/
-/*    }*/
-/*    .projects-text h2 {*/
-/*        width: 1036px;*/
-/*    }*/
-/*    .contacts-text h2 {*/
-/*        width: 1036px;*/
-/*}*/
+    }
+
 }
-/*@media  screen and (max-width: 768px) {*/
-/*    nav>ul>li {*/
-/*        padding: 20px;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*    .main-box {*/
-/*        width: 488px;*/
-/*        height: 453px;*/
+@media  screen and (max-width: 768px) {
+    .main-about h2 {
+        width: 743px;
+        font-size: 30px;
+    }
+    .main-about p:nth-child(2) {
+        left: -2px;
+    }
+    .main-about p:last-child {
+        left: -10px;
+    }
+    .about-text {
+        width: 298px;
+    }
+    .about-text button {
+        margin-left: 128px;
+    }
+    .myskills-text h2 {
+        width: 750px;
+        font-size: 30px;
+    }
+    .skill section:nth-child(2) {
+        width: 703px;
+        height: 400px;
+    }
+    .tools-image h2 {
+        width: 742px;
+        font-size: 25px;
+    }
+    .my-services h2 {
+        width: 741px;
+        font-size: 30px;
+    }
+    .service2-box {
+        height: 548px;
+        width: 171px;
+    }
+    .education-text h2 {
+        width: 730px;
+        font-size: 30px;
+    }
+    .projects-text h2 {
+        width: 701px;
+        font-size: 30px;
+    }
+    .contacts-text h2 {
+        width: 714px;
+    }
+    .contacts-box {
+        width: 733px;
+    }
+    #input01, #input02, #input03, #input04 {
+        margin-left: 98px;
+    }
+    footer p:nth-child(2) {
+        width: 761px;
+    }
 
-/*    }*/
-/*    .main-image img {*/
-/*        width: 244px;*/
-/*        height: 243px;*/
-/*        left: 13px;*/
-/*    }*/
-/*    .main-box h3:first-child {*/
-/*        font-size: 30px;*/
+    nav>ul>li {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .main-box {
+        width: 488px;
+        height: 453px;
 
-/*    }*/
-/*    .main-box h2 {*/
+    }
+    .main-image img {
+        width: 244px;
+        height: 243px;
+        left: 13px;
+    }
+    .main-box h3:first-child {
+        font-size: 30px;
 
-/*        font-size: 30px;*/
-/*      left: 15%;*/
-/*    }*/
-/*    .main-box h3:last-child {*/
-/*        top: 40%;*/
-/*        right: 30%;*/
-/*        font-size: 20px;*/
+    }
+    .main-box h2 {
 
-/*    }*/
-/*    .hero aside i {*/
-/*        font-size: 30px;*/
-/*        margin: 48px 25px;*/
-/*    }*/
-/*    .hero aside h4 {*/
-/*        font-size: 20px;*/
-/*        margin: -3px 154px;*/
-/*    }*/
+        font-size: 30px;
+      left: 15%;
+    }
+    .main-box h3:last-child {
+        top: 40%;
+        right: 30%;
+        font-size: 20px;
+
+    }
+    .hero aside i {
+        font-size: 30px;
+        margin: 48px 25px;
+    }
+    .hero aside h4 {
+        font-size: 20px;
+        margin: -3px 154px;
+    }
 /*    .main-about h2 {*/
 /*        width: 761px;*/
 /*        font-size: 30px;*/
