@@ -1177,94 +1177,103 @@ footer p:nth-child(2){
         font-size: 20px;
         margin: -3px 154px;
     }
-/*    .main-about h2 {*/
-/*        width: 761px;*/
-/*        font-size: 30px;*/
-/*    }*/
-/*    .main-about p:nth-child(2) {*/
-/*        left: 53px;*/
-/*        font-size: 25px;*/
-/*    }*/
-/*    .main-about p:last-child {*/
-/*        left: 123px;*/
-/*    }*/
-/*    .about-text p {*/
-/*        font-size: 18px;*/
-/*    }*/
-/*    .about-box img {*/
-/*        width: 278px;*/
-/*        height: 275px;*/
-/*        margin-bottom: 194px;*/
-/*        padding: 20px;*/
-/*    }*/
-/*    .name-box {*/
-/*        width: 406px;*/
-/*        height: 210px;*/
-/*        margin-left: 37px;*/
-/*    }*/
-/*    tr td {*/
-/*        padding-top: 50px;*/
-/*        font-size: 15px;*/
-/*    }*/
-/*    .about-text button {*/
-/*        padding: 10px 12px;*/
+    .main-about h2 {
+        width: 761px;
+        font-size: 30px;
+    }
+    .main-about p:nth-child(2) {
+        left: 53px;
+        font-size: 25px;
+    }
+    .main-about p:last-child {
+        left: 62px;
+    }
+    .about-text p {
+        font-size: 18px;
+    }
+    .about-box img {
+        width: 278px;
+        height: 275px;
+        margin-bottom: 194px;
+        padding: 20px;
+    }
+    .name-box {
+        width: 406px;
+        height: 210px;
+        margin-left: 37px;
+    }
+    tr td {
+        padding-top: 50px;
+        font-size: 15px;
+    }
+    .about-text button {
+        padding: 10px 12px;
 
-/*    }*/
-/*    .myskills-text h2 {*/
-/*        font-size: 30px;*/
-/*        width: 761px;*/
-/*    }*/
-/*    .skill section:nth-child(2) {*/
-/*        width: 676px;*/
-/*        height: 288px;*/
-/*        gap: 29px;*/
-/*        margin-right: 43px*/
-/*    }*/
-/*    .skill-deatail div h4 {*/
-/*        height: 8px;*/
-/*        left: 60px;*/
-/*        top: 20px;*/
-/*        font-size: 15px;*/
-/*    }*/
-/*    .button-read .button {*/
-/*        margin-left: 312px;*/
-/*    }*/
-/*    .tools-image h2 {*/
-/*        width: 761px;*/
-/*        font-size: 25px;*/
-/*    }*/
-/*    .tools-box {*/
-/*        margin: -13px;*/
-/*        margin-right: 0px;*/
-/*    }*/
-/*    .my-services h2 {*/
-/*        width: 761px;*/
-/*        font-size: 30px;*/
+    }
+    .myskills-text h2 {
+        font-size: 30px;
+        width: 761px;
+    }
+    .skill section:nth-child(2) {
+        width: 676px;
+        height: 288px;
+        gap: 29px;
+        margin-right: 43px
+    }
+    .skill-deatail div h5 {
+        left:23px;
+        top: -18px;
+        font-size: 15px;
+    }
+    .skill-deatail div h4 {
+        width: 70px;
+        height: 30px;
+        left: 23px;
+        font-size: 17px;
+    }
+
+    .button-read .button {
+        margin-left: 312px;
+    }
+    .tools-image h2 {
+        width: 761px;
+        font-size: 25px;
+    }
+    .tools-box {
+        margin: -13px;
+        margin-right: 0px;
+    }
+    .my-services h2 {
+        width: 761px;
 
 
-/*    }*/
-/*    .service2-box img {*/
-/*        width: 100px;*/
-/*        height: 100px;*/
-/*        margin-bottom: 30px;*/
-/*        border-radius: 40%;*/
-/*    }*/
-/*    .service2-box h5 {*/
-/*        font-size: 20px;*/
-/*        margin-bottom: 33px;*/
-/*    }*/
-/*    .service2-box {*/
-/*        height: 400px;*/
-/*        width: 500px;*/
-/*        margin: -24px;*/
-/*        font-size: 13px;*/
-/*        padding: 29px 10px;*/
-/*        margin: 15px;*/
-/*    }*/
-/*    .education-text h2 {*/
-/*        width: 761px;*/
-/*        font-size: 30px;*/
-/*    }*/
+
+    }
+    .service2-box img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 30px;
+        border-radius: 40%;
+    }
+    .service2-box h5 {
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+    .service2-box {
+        height: 455px;
+        width: 500px;
+        margin: -24px;
+        font-size: 13px;
+        padding: 29px 10px;
+        margin: 15px;
+    }
+    .service-box {
+        margin-left: -19px;
+    }
+    .education-text h2 {
+        width: 761px;
+        font-size: 30px;
+    }
 /*    .education-box {*/
 /*        width: 602px;*/
 /*        height: 487px;*/
