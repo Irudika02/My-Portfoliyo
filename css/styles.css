@@ -1029,6 +1029,63 @@ footer p:nth-child(2){
         width: 1019px;
 
     }
+    .education-box {
+        width: 825px;
+    }
+    .edu-box1, .edu-box2, .edu-box3 {
+        height: 203px;
+        width: 214px;
+        padding: 2px 39px 23px;
+        margin: 43px;
+        font-size: 13px;
+    }
+    .projects-text h2 {
+        width: 1019px;
+    }
+    .projects-detail {
+        padding: 56px 39px;
+        margin-left: 80px;
+        font-size: 23px;
+    }
+    .my-projects {
+        margin-left: -49px;
+    }
+    .system {
+        width: 204px;
+        margin: 53px;
+        margin-left: 44px;
+        height: 244px;
+    }
+    .system img {
+        width: 138px;
+        height: 140px;
+    }
+    .button-view .button {
+        margin-left: 450px;
+    }
+    .git-paragrah p:nth-child(1) {
+        padding-left: 83px;
+        font-size: 25px;
+    }
+    .contacts-text h2 {
+        width: 1019px;
+    }
+    .contacts-box {
+        width: 872px;
+        height: 941px;
+        left: -4px;
+    }
+    .contact-me p {
+        font-size: 25px;
+
+    }
+    .contact-me img {
+        margin-left: 161px;
+        margin-top: 75px;
+    }
+    footer p:nth-child(2) {
+
+        font-size: 20px;
     /*tr td:first-child {*/
     /*    padding-right: 80px;*/
     /*}*/
