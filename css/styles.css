@@ -1464,6 +1464,7 @@ footer p:nth-child(2){
     nav > ul > li {
         padding: 10px;
         font-size: 10px;
+        padding-top: 27px;
     }
 
     .main-box {
@@ -1819,6 +1820,9 @@ footer p:nth-child(2){
         width: 404px;
         font-size: 18px;
     }
+    .tools-box img {
+        width: 10%;
+    }
 }
 @media  screen and (max-width: 375px) {
     .main-about p:nth-child(2) {
@@ -1949,5 +1953,25 @@ footer p:nth-child(2){
         height: 23px;
         width: 28px;
     }
+    .projects-detail {
+        font-size: 13px;
+        margin-left: 15px;
+        padding-top: 42px;
 
+    }
+    .my-projects {
+        margin-left: -21px;
+    }
+    .git-button .gitbut {
+        margin-left: 58px;
+}
+    footer p:nth-child(2) {
+        font-size: 15px;
+    }
+
+}
+@media  screen and (max-width: 320px) {
+    .main-about p:nth-child(2) {
+        left: -399px;
+    }
 }
