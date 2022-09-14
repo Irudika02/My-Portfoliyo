@@ -1441,4 +1441,59 @@ footer p:nth-child(2){
     footer p:nth-child(2) {
         width: 407px;
     }
+    nav>ul>li {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .main-box {
+        width: 234px;
+        height: 365px;
+    }
+    .main-box h2 {
+        font-size: 18px;
+        margin: -27px;
+    }
+    .main-box h3:first-child {
+        font-size: 18px;
+    }
+    .main-box h3:last-child {
+        font-size: 15px;
+        margin: -49px;
+        margin-top: -21px;
+    }
+}
+.main-image img {
+    width: 181px;
+    height: 193px;
+    left: 2px;
+}
+.hero aside i {
+    font-size: 20px;
+    margin: -19px 9px;
+    margin-right: 0px;
+}
+.hero aside h4 {
+    font-size: 15px;
+    margin: 28px 44px;
+    padding: 16px;
+}
+.main-about h2 {
+    font-size: 30px;
+}
+.main-about p:nth-child(2) {
+    left: -313px;
+    right: -1141px;
+    font-size: 17px;
+    padding-left: 365px;
+}
+.main-about p:last-child {
+    left: -327px;
+    padding-left: 362px;
+    font-size: 15px;
+}
+.about-box img {
+    width: 218px;
+    height: 226px;
+    margin-bottom: 1119px;
+    padding: 11px;
 }
