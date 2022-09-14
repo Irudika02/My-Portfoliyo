@@ -1820,3 +1820,36 @@ footer p:nth-child(2){
         font-size: 18px;
     }
 }
+@media  screen and (max-width: 425px) {
+    .main-about p:nth-child(2) {
+        left: -338px;
+    }
+    .about-text {
+        width: 118px;
+    }
+    .skill section:nth-child(2) {
+        width: 362px;
+    }
+    .service2-box {
+        width: 112px;
+
+    }
+    .education-box {
+        width: 168px;
+        height: 487px;
+        left: -48px;
+        max-width: 30%;
+    }
+    .edu-box3 {
+        width: 196px;
+}
+    .edu-box2 {
+        width: 145px;
+    }
+    .projects-text h2 {
+        width: 348px;
+    }
+    footer p:nth-child(2) {
+        width: 362px;
+    }
+}
