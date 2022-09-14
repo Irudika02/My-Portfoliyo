@@ -1820,7 +1820,7 @@ footer p:nth-child(2){
         font-size: 18px;
     }
 }
-@media  screen and (max-width: 425px) {
+@media  screen and (max-width: 375px) {
     .main-about p:nth-child(2) {
         left: -338px;
     }
@@ -1851,5 +1851,30 @@ footer p:nth-child(2){
     }
     footer p:nth-child(2) {
         width: 362px;
+    }
+    .main-box {
+        width: 215px;
+        height: 368px;
+    }
+    .main-box h3:last-child {
+        font-size: 14px;
+        margin: -58px;
+        margin-top: -34px;
+    }
+    .hero aside i {
+        font-size: 18px;
+        margin: -20px 16px;
+
+    }
+    .hero aside i {
+        font-size: 18px;
+        margin: -7px -8px 12px;
+
+        padding-left: 29px;
+    }
+    .hero aside h4 {
+        font-size: 15px;
+        margin: 29px 46px;
+        padding: 6px;
     }
 }
