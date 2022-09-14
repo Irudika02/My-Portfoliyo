@@ -1974,4 +1974,31 @@ footer p:nth-child(2){
     .main-about p:nth-child(2) {
         left: -399px;
     }
+    .main-about p:last-child {
+        left: -391px;
+    }
+    .about-text {
+        width: 84px;
+    }
+    .skill section:nth-child(2) {
+        width: 303px;
+    }
+    .service2-box {
+        width: 109px;
+    }
+    .education-box {
+        left: -75px;
+    }
+    .projects-text h2 {
+        width: 299px;
+    }
+    .contacts-text h2 {
+        width: 319px;
+    }
+    .contacts-box {
+        width: 300px;
+    }
+    footer p:nth-child(2) {
+        width: 305px;
+    }
 }
