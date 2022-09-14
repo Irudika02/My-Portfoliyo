@@ -1877,4 +1877,77 @@ footer p:nth-child(2){
         margin: 29px 46px;
         padding: 6px;
     }
+    nav > ul > li {
+        padding: 6px;
+        font-size: 10px;
+        padding-top: 27px;
+    }
+    .main-image img {
+        width: 150px;
+        height: 158px;
+        left: 2px;
+    }
+    .skill {
+        padding: 476px 0px;
+    }
+    .about-text button {
+        margin-left: -128px;
+        padding: 3px 12px;
+    }
+    .skill section:nth-child(2) {
+        width: 347px;
+    }
+    .button-read .button {
+        margin-left: 112px;
+        padding: 4px 30px;
+    }
+    .tools {
+        width: 100%;
+        padding: 6px 13px;
+    }
+    .tools-box img {
+        width: 10%;
+    }
+    .service2-box img {
+        width: 49px;
+        height: 59px;
+        margin-bottom: 16px;
+    }
+    .service2-box {
+        width: 130px;
+    }
+    .service2-box h5 {
+        font-size: 11px;
+        margin-bottom: 52px;
+        padding-top: 0px;
+        padding-right: 20px;
+    }
+    .education-box {
+        width: 306px;
+        height: 478px;
+        left: 0px;
+        max-width: 85%;
+    }
+    .education-box h3 {
+        padding-right: 17px;
+        padding-top: 11px;
+        padding-left: -10px;
+        border-left-width: 35px;
+        margin-left: 0px;
+        border-right-width: 67px;
+        font-size: 13px;
+    }
+    .edu-box3 img{
+        height: 20px;
+        width: 20px;
+    }
+    .edu-box2 img {
+        height: 23px;
+        width: 28px;
+}
+    .edu-box1 img {
+        height: 23px;
+        width: 28px;
+    }
+
 }
