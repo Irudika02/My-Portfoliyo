@@ -2155,4 +2155,34 @@ footer p:nth-child(2){
         padding: 2px 17px;
         margin-left: 106px;
     }
+    .git-paragrah p:nth-child(1) {
+        padding-left: 15px;
+        font-size: 13px;
+    }
+    .git-button .gitbut {
+        margin-left: 36px;
+    }
+    .container .antima .box-1 {
+        padding: -10px 7px;
+    }
+    .contact-me img {
+        margin-left: 49px;
+        margin-top: 36px;
+        width: 20px;
+    }
+    .box-1 i {
+        font-size: 18px;
+        margin-top: -1px;
+        padding: 29px;
+        width: 35px;
+        height: 26px;
+    }
+    .icon-text h3 {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-left: -5px;
+    }
+    .contact-me p {
+        font-size: 13px;
+    }
 }
