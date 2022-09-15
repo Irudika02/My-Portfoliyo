@@ -1367,9 +1367,11 @@ footer p:nth-child(2){
         font-size: 20px;
     }
     .contact-me img {
-        margin-left: 102px;
+        margin-left: 98px;
         margin-top: 71px;
+        width: 30px;
     }
+
     footer p:nth-child(1) {
         font-size: 25px;
 
@@ -2000,5 +2002,17 @@ footer p:nth-child(2){
     }
     footer p:nth-child(2) {
         width: 305px;
+    }
+    nav > ul > li {
+        padding: 4px;
+        font-size: 10px;
+        padding-top: 30px;
+    }
+    .main-box {
+        width: 190px;
+        height: 351px;
+    }
+    .main-box h3:first-child {
+        font-size: 15px;
     }
 }
