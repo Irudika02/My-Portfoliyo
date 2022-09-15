@@ -2087,4 +2087,18 @@ footer p:nth-child(2){
         margin-left: 85px;
         padding: 0px 30px;
     }
+    .service-box img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .service2-box {
+        width: 114px;
+        font-size: 10px;
+        padding: 33px 23px;
+
+    }
+    .service2-box h5 {
+        font-size: 10px;
+    }
 }
