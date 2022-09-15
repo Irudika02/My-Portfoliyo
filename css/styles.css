@@ -2079,4 +2079,12 @@ footer p:nth-child(2){
         left: 3px;
         font-size: 11px;
     }
+    .skill section:nth-child(2) {
+        width: 296px;
+        gap: 19px;
+}
+    .button-read .button {
+        margin-left: 85px;
+        padding: 0px 30px;
+    }
 }
