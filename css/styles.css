@@ -2045,4 +2045,18 @@ footer p:nth-child(2){
         height: 140px;
         left: 2px;
     }
+    .main-about h2 {
+        font-size: 25px;
+    }
+    .main-about p:nth-child(2) {
+        left: -380px;
+        font-size: 15px;
+        padding-left: 401px;
+
+    }
+    .main-about p:last-child {
+        left: -381px;
+        padding-left: 400px;
+        font-size: 14px;
+    }
 }
