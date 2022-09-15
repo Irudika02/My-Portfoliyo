@@ -2015,4 +2015,34 @@ footer p:nth-child(2){
     .main-box h3:first-child {
         font-size: 15px;
     }
+    .main-box h2 {
+        font-size: 15px;
+        margin: -16px;
+    }
+    .main-box h3:last-child {
+        font-size: 13px;
+        margin: -57px;
+        margin-top: -34px;
+    }
+    .hero aside i {
+        font-size: 15px;
+        margin: -7px -7px 12px;
+        padding-left: 33px;
+        padding-left: 27px;
+    }
+    .hero aside h4 {
+        font-size: 15px;
+        margin: 29px 46px;
+        padding: 4px;
+        argin-right: 25px;
+        margin-top: 34px;
+        margin-bottom: 57px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .main-image img {
+        width: 124px;
+        height: 140px;
+        left: 2px;
+    }
 }
