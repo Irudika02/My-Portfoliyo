@@ -2101,4 +2101,58 @@ footer p:nth-child(2){
     .service2-box h5 {
         font-size: 10px;
     }
+    .education-box {
+        left: 0px;
+        max-width: 80%;
+    }
+    .edu-box1 {
+        height: 200px;
+        width: 310px;
+        padding: -1px 39px 23px;
+        margin: 26px;
+        font-size: 10px;
+        padding-right: 62px;
+        padding-bottom: 68px;
+        top: 1px;
+        left: 64px;
+        padding-top: 16px;
+        padding-left: 21px;
+    }
+    .edu-box2 {
+        width: 398px;
+        margin-right: 27px;
+        margin-bottom: 4px;
+        margin-top: 24px;
+        padding-left: 12px;
+        padding-right: 65px;
+        padding-bottom: 12px;
+        padding-top: 13px;
+        margin-right: 92px;
+        font-size: 10px;
+    }
+    .projects-detail {
+        font-size: 12px;
+        margin-left: 7px;
+}
+    .system img {
+        width: 59px;
+        height: 64px;
+        padding-right: 18px;
+    }
+    .system h3 {
+        padding-right: 45px;
+        padding-top: 25px;
+        padding-left: -39px;
+        border-left-width: 68px;
+        margin-left: -14px;
+        border-right-width: 67px;
+        font-size: 13px;
+    }
+    .my-projects {
+        margin-left: -1px;
+    }
+    .button-view .button {
+        padding: 2px 17px;
+        margin-left: 106px;
+    }
 }
