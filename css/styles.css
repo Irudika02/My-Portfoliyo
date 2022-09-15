@@ -2059,4 +2059,24 @@ footer p:nth-child(2){
         padding-left: 400px;
         font-size: 14px;
     }
+    .about-box img {
+        width: 195px;
+        height: 196px;
+}
+    .about-text button {
+        margin-left: -128px;
+        padding: 0px 12px;
+    }
+    .skill {
+        padding: 792px 0px;
+    }
+    .myskills-text h2 {
+        font-size: 25px;
+    }
+    .skill-deatail div h4 {
+        width: 52px;
+        height: 27px;
+        left: 3px;
+        font-size: 11px;
+    }
 }
