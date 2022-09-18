@@ -28,8 +28,8 @@ Wire-frame URL :
 Wire-frame URL :
    items-page :https://wireframe.cc/pro/pp/60e07a148581803#3xfdpdh2  
                 
- Wire-frame URL :              
-  placeOrder-page :https://wireframe.cc/pro/pp/60e07a148581803#6e3s0l8s 
+ Wire-frame URL : placeOrder-page :https://wireframe.cc/pro/pp/60e07a148581803#6e3s0l8s               
+ 
   
   
                 
