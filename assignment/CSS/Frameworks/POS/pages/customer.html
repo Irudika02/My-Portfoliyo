@@ -122,6 +122,96 @@ DOCTYPE html>
             </table>
         </section>
     </section>
+    <!-- customer-form-save
+          ============================================= -->
+
+
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Customer Save</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <section>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFile">Customer ID</label>
+                            <input class="form-control" id="formFile" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileMultiple">Customer Name</label>
+                            <input class="form-control" id="formFileMultiple" multiple type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileDisabled">Customer Address</label>
+                            <input class="form-control" id="formFileDisabled" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileDisabled">Customer Contact</label>
+                            <input class="form-control" id="formFileDisabled1" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileSm">Customer Salary</label>
+                            <input class="form-control form-control-sm" id="formFileSm" type="number">
+                        </div>
+
+
+                        <div aria-label="Basic mixed styles example" class="btn-group" role="group">
+                            <button class="btn btn-success save-cus" type="button">Save</button>
+                            <button class="btn btn-secondary close-cus" data-bs-dismiss="modal" type="button">Close
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- customer-form-edit
+   ============================================= -->
+
+    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="editCus" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Customer Update</h5>
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <section>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFile">Customer ID</label>
+                            <input class="form-control" id="formFile1" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileMultiple">Customer Name</label>
+                            <input class="form-control" id="formFileMultiple1" multiple type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileDisabled">Customer Address</label>
+                            <input class="form-control" id="formFileDisabled11" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileDisabled">Customer Contact</label>
+                            <input class="form-control" id="formFileDisabled12" type="text">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="formFileSm">Customer Salary</label>
+                            <input class="form-control form-control-sm" id="formFileSm1" type="number">
+                        </div>
+
+
+                        <div aria-label="Basic mixed styles example" class="btn-group" role="group">
+                            <button class="btn btn-success save-cus" type="button">Update</button>
+                            <button class="btn btn-secondary close-cus" data-bs-dismiss="modal" type="button">Close
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </main>
 
