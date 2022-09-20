@@ -15,6 +15,101 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Styles
+          ============================================= -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .customer-head {
+            width: 100%;
+            margin-top: 10px;
+            height: 40px;
+            background-color: #EFDBCF;
+        }
+
+        header {
+            width: 100%;
+            background-color: #EECBB7;
+        }
+
+        .main-section {
+            width: 90%;
+            height: 80vh;
+            margin: auto;
+            background-color: #EEEEF2;
+        }
+
+        .collapse {
+            flex-basis: 100%;
+            flex-grow: 1;
+            align-items: center;
+            justify-content:left;
+        }
+
+        .collapse a {
+            font-size: 20px;
+            color: #000000;
+        }
+
+        .collapse a:hover {
+            color: #f9004d;
+            transition: .4s;
+        }
+
+        .breadcrumb {
+            margin-left: 20px;
+            list-style: none;
+            border-radius: 4px;
+        }
+
+        .breadcrumb li {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+
+        .breadcrumb a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .back {
+            margin-top: 20px;
+            color: black;
+        }
+
+        .add button:first-child {
+            background-color: #A8ACF6;
+            margin-left: 30px;
+            margin-top: 32px;
+        }
+
+        .add button:first-child:hover {
+            background-color: #A8ACF6;
+        }
+
+        tbody tr {
+            color: black;
+        }
+
+        .cus-table {
+            margin-top: 25px;
+            background-color: #EFDBCF;
+        }
+
+        .order-detail {
+            margin-top: 25px;
+        }
+
+        .add-button {
+            text-align: right;
+            margin-top: 1rem;
+        }
+    </style>
+    </style>
 </head>
 
 <body>
@@ -59,3 +154,186 @@
         </div>
     </nav>
 </header>
+<!-- main
+   ============================================= -->
+<main>
+    <section class="main-section">
+        <section class="customer-head">
+            <ul class="breadcrumb">
+                <img src="../assets/img/clipboard.png" width="35px">
+                <!--                <li><a href="#">Dashboard /</a></li>-->
+                <li class="active"> Orders</li>
+            </ul>
+        </section>
+        <button type="button" class="btn btn-secondary back" style="background-color: #EECBB7;">
+            <img src="../assets/img/arrow.png" width="26px" >
+            Back
+        </button>
+
+
+        <div class="row order-detail">
+            <div class="col-lg-6 mt-lg-0 mt-3">
+                <div class="card"style="background-color: #EFDBCF;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label>Customer Id</label>
+                                    <select class="form-select">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input class="form-control" id="formFile" type="text">
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label>Item Code</label>
+                                    <select class="form-select">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label>Item Description</label>
+                                    <input class="form-control" id="formFile1" type="text">
+                                </div>
+                            </div>
+
+                            <div class="col-5">
+                                <div class="form-group">
+                                    <label>Qty On Hand</label>
+                                    <input class="form-control" id="formFile2" type="text">
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Unit Price</label>
+                                    <input class="form-control" id="formFile3" type="text">
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Qty</label>
+                                    <input class="form-control" id="formFile4" type="text">
+                                </div>
+                            </div>
+                            <div class="add-button">
+                                <button type="button" class="btn btn-primary col-12 col-sm-auto">Add Item</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <section class="content-box-2 p-4 bg-light">
+                    <div class="row"style="background-color:#EFDBCF" >
+                        <div class="col-12" style="background-color:#EFDBCF ">
+                            <div class="row" style="background-color:#EFDBCF ">
+                                <div class="col-12" style="background-color:#EFDBCF ">
+                                    <span class="" id="total-text"style="color: blue">Total : </span>
+                                </div>
+                                <div class="col-12">
+                                    <span id="total"style="color: blue">00.0</span> Rs/=
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <span id="total-text1"style="color: red">SubTotal : </span>
+                                </div>
+                                <div class="col-12">
+                                    <span id="subtotal"style="color: red">00.0</span> Rs/=
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Cash</label>
+                                <input class="form-control" id="txtCash" min="0" type="number">
+                                <span class="control-error"
+                                      id="cash-empty-error"></span>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <div class="form-group">
+                                <label>Discount</label>
+                                <input class="form-control" id="txtDiscount" min="0" type="number">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="form-group">
+                                <label>Balance</label>
+                                <input class="form-control" id="txtBalance" type="text">
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <button class="btn btn-success" id="btnSubmitOrder" type="button">Purchase</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <section class="cus-table ">
+            <div class="">
+                <table class="table table-bordered">
+                    <thead class="bg-danger text-white">
+                    <tr style="background-color:  #EC9463" >
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Address</th>
+                        <th>Customer Contact</th>
+                        <th>Customer Salary</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbdoy>
+                        <tr>
+                            <td>C001</td>
+                            <td>Irudika</td>
+                            <td>Kandy</td>
+                            <td>0712826787</td>
+                            <td>25000</td>
+                            <td class="odd">
+                                <button class="btn btn-danger btn-mini"><i class="fa-solid fa-trash"></i> Delete
+                                </button>
+                            </td>
+
+                        </tr>
+                    </tbdoy>
+                </table>
+            </div>
+        </section>
+
+    </section>
+
+
+</main>
+<script src="../assets/js/bootstrap.min.js"></script>
+</body>
+</html>
