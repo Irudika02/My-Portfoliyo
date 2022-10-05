@@ -189,38 +189,23 @@
                 </button>
             </div>
         </section>
-
-        <section class="cus-table" >
-            <div class="col-md-14" style="height:430px; overflow-y: scroll">
-            <table class="table table-bordered" >
-                <thead class="bg-danger text-white"  >
-                <tr style="background-color: #EC9463" >
-                    <th>Item Code</th>
-                    <th>Item Name</th>
-                    <th>Qty</th>
-                    <th>Uniq Price</th>
-                    <th>Total</th>
-                    <th>Action</th>
-                </tr>
-                </thead>
-                <tbdoy>
-                    <tr>
-                        <td>I001</td>
-                        <td>soap</td>
-                        <td>10</td>
-                        <td>50</td>
-                        <td>1000</td>
-                        <td class="odd">
-                            <button class="btn btn-warning btn-mini" data-bs-target="#editCus"
-                                    data-bs-toggle="modal"><i class="fa-solid fa-pen-to-square"></i> Edi
-                            </button>
-
-                            <button class="btn btn-danger btn-mini"><i class="fa-solid fa-trash"></i> Delete</button>
-                        </td>
-
+        <section class="item-table">
+            <div div class="col-md-12 mt-4" style="height:430px; overflow-y: scroll">
+                <table class="table table-bordered">
+                    <thead class="bg-danger text-white">
+                    <tr style="background-color:  #EC9463">
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Qty</th>
+                        <th>Uniq Price</th>
+                        <th>Total</th>
+                        <th>Action</th>
                     </tr>
-                </tbdoy>
-            </table>
+                    </thead>
+                    <tbody id="tblItem">
+
+                    </tbody>
+                </table>
             </div>
         </section>
     </section>
