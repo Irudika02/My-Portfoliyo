@@ -191,43 +191,29 @@
             </div>
         </section>
 
-        <section class="cus-table" >
-            <div class="col-md-12 mt-4" style="height:430px; overflow-y: scroll">
-            <table class="table table-bordered" >
-                <thead class="bg-danger text-white"  >
-                <tr style="background-color:  #EC9463" >
-                    <th>Customer ID</th>
-                    <th>Customer Name</th>
-                    <th>Customer Address</th>
-                    <th>Customer Contact</th>
-                    <th>Customer Salary</th>
-                    <th>Action</th>
-                </tr>
-                </thead>
-                <tbdoy>
-                    <tr>
-                        <td>C001</td>
-                        <td>Irudika</td>
-                        <td>Kandy</td>
-                        <td>0712826787</td>
-                        <td>25000</td>
-                        <td class="odd">
-                            <button class="btn btn-warning btn-mini" data-bs-target="#editCus"
-                                    data-bs-toggle="modal"><i class="fa-solid fa-pen-to-square"></i> Edit
-                            </button>
 
-                            <button class="btn btn-danger btn-mini"><i class="fa-solid fa-trash"></i> Delete</button>
-                        </td>
-
+        <section class="cus-table">
+            <div div class="col-md-12 mt-4" style="height:430px; overflow-y: scroll">
+                <table class="table table-bordered">
+                    <thead class="bg-danger text-white">
+                    <tr style="background-color:  #EC9463">
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Address</th>
+                        <th>Customer Contact</th>
+                        <th>Customer Salary</th>
+                        <th>Action</th>
                     </tr>
-                </tbdoy>
-            </table>
+                    </thead>
+                    <tbody id="tblCustomer">
+
+                    </tbody>
+                </table>
             </div>
         </section>
     </section>
-    <!-- customer-form-save
+    <!-- customer-form-savestyle="background-color:  #EC9463"
           ============================================= -->
-
 
     <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal" tabindex="-1">
         <div class="modal-dialog">
@@ -239,29 +225,29 @@
                 <div class="modal-body">
                     <section>
                         <div class="mb-3">
-                            <label class="form-label" for="formFile">Customer ID</label>
-                            <input class="form-control" id="formFile" type="text">
+                            <label class="form-label" for="txtCustomerID">Customer ID</label>
+                            <input class="form-control" id="txtCustomerID" type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileMultiple">Customer Name</label>
-                            <input class="form-control" id="formFileMultiple" multiple type="text">
+                            <label class="form-label" for="txtCustomerName">Customer Name</label>
+                            <input class="form-control" id="txtCustomerName" multiple type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileDisabled">Customer Address</label>
-                            <input class="form-control" id="formFileDisabled" type="text">
+                            <label class="form-label" for="txtCustomerAddress">Customer Address</label>
+                            <input class="form-control" id="txtCustomerAddress" type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileDisabled">Customer Contact</label>
-                            <input class="form-control" id="formFileDisabled1" type="text">
+                            <label class="form-label" for="txtCustomerContact">Customer Contact</label>
+                            <input class="form-control" id="txtCustomerContact" type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileSm">Customer Salary</label>
-                            <input class="form-control form-control-sm" id="formFileSm" type="number">
+                            <label class="form-label" for="txtCustomerSalary">Customer Salary</label>
+                            <input class="form-control form-control-sm" id="txtCustomerSalary" type="number">
                         </div>
 
 
                         <div aria-label="Basic mixed styles example" class="btn-group" role="group">
-                            <button class="btn btn-success save-cus" type="button">Save</button>
+                            <button class="btn btn-success save-cus" type="button" id="saveCustomer">Save</button>
                             <button class="btn btn-secondary close-cus" data-bs-dismiss="modal" type="button">Close
                             </button>
                         </div>
@@ -284,24 +270,24 @@
                 <div class="modal-body">
                     <section>
                         <div class="mb-3">
-                            <label class="form-label" for="formFile">Customer ID</label>
-                            <input class="form-control" id="formFile1" type="text">
+                            <label class="form-label" for="txtCustomerIDEdit">Customer ID</label>
+                            <input class="form-control" id="txtCustomerIDEdit" type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileMultiple">Customer Name</label>
-                            <input class="form-control" id="formFileMultiple1" multiple type="text">
+                            <label class="form-label" for="txtCustomerNameEdit">Customer Name</label>
+                            <input class="form-control" id="txtCustomerNameEdit" multiple type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileDisabled">Customer Address</label>
-                            <input class="form-control" id="formFileDisabled11" type="text">
+                            <label class="form-label" for="txtCustomerAddressEdit">Customer Address</label>
+                            <input class="form-control" id="txtCustomerAddressEdit" type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileDisabled">Customer Contact</label>
-                            <input class="form-control" id="formFileDisabled12" type="text">
+                            <label class="form-label" for="txtCustomerContactEdit">Customer Contact</label>
+                            <input class="form-control" id="txtCustomerContactEdit" type="text">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" for="formFileSm">Customer Salary</label>
-                            <input class="form-control form-control-sm" id="formFileSm1" type="number">
+                            <label class="form-label" for="txtCustomerSalaryEdit">Customer Salary</label>
+                            <input class="form-control form-control-sm" id="txtCustomerSalaryEdit" type="number">
                         </div>
 
 
