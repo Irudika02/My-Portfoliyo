@@ -1396,7 +1396,9 @@ footer p:nth-child(2){
     }
 
     .about-text button {
-        margin-left: -32px;
+        margin-top: 54px;
+        padding: 2px 12px;
+        margin-left: -62px;
     }
 
     .name-box {
