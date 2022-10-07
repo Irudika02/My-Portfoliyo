@@ -1508,6 +1508,7 @@ footer p:nth-child(2){
         font-size: 15px;
         margin: 28px 44px;
         padding: 16px;
+        margin-bottom: 73px;
     }
 
     .main-about h2 {
@@ -1885,6 +1886,7 @@ footer p:nth-child(2){
         font-size: 15px;
         margin: 29px 46px;
         padding: 6px;
+        margin-bottom: 73px;
     }
     nav > ul > li {
         padding: 6px;
@@ -2038,10 +2040,10 @@ footer p:nth-child(2){
         margin: 29px 46px;
         padding: 4px;
         argin-right: 25px;
-        margin-top: 34px;
-        margin-bottom: 57px;
+        margin-top: 19px;
+        margin-bottom: 104px;
         padding-bottom: 0px;
-        padding-top: 0px;
+        padding-top: 34px;
     }
     .main-image img {
         width: 124px;
