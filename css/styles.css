@@ -81,11 +81,10 @@ nav>ul>li>a:hover{
 
 }
 
-.hero aside{
+.hero aside {
     position: absolute;
-    bottom: 30%;
+    bottom: 130px;
     right: 10%;
-
 }
 .hero aside i{
     font-size: 50px;
@@ -939,7 +938,9 @@ footer p:nth-child(2){
     }
 
     .hero aside {
-        bottom: 30%;
+
+        bottom: 130px;
+
     }
 
     .about-box img {
