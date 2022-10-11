@@ -121,7 +121,7 @@
             <a class="navbar-brand" href="#">
                 <img src="../assets/img/1000_F_73106428_Q91LNUigg4ZRIi1ItxIcgEzyW8C9yluE.jpg" alt="Logo" width="40" height="40"
                      class="d-inline-block align-text-top">
-                <!--                POS System-->
+           POS System
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -149,7 +149,7 @@
             <a class="navbar-brand" href="#">
                 <img src="../assets/img/1000_F_152711253_7J1blWps9QskMf86UKGCCjXDP102eKqb.jpg" alt="Logo" width="40" height="40"
                      class="d-inline-block align-text-top">
-                <!--                Log Out-->
+              Log Out
             </a>
         </div>
     </nav>
@@ -161,7 +161,7 @@
         <section class="customer-head">
             <ul class="breadcrumb">
                 <img src="../assets/img/clipboard.png" width="35px">
-                <!--                <li><a href="#">Dashboard /</a></li>-->
+             <li><a href="#">Dashboard /</a></li>
                 <li class="active"> Orders</li>
             </ul>
         </section>
@@ -179,7 +179,7 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Customer Id</label>
-                                    <select class="form-select">
+                                    <select class="form-select" id="customerID">
                                         <option value="1">C001</option>
                                         <option value="2">C002</option>
                                         <option value="3">C003</option>
@@ -190,14 +190,14 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Customer Name</label>
-                                    <input class="form-control" id="formFile" type="text">
+                                    <input class="form-control" id="customerName" type="text">
                                 </div>
                             </div>
 
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Item Code</label>
-                                    <select class="form-select">
+                                    <select class="form-select" id="itemCode">
                                         <option value="1">I001</option>
                                         <option value="2">I002</option>
                                         <option value="3">I003</option>
@@ -208,28 +208,28 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Item Description</label>
-                                    <input class="form-control" id="formFile1" type="text">
+                                    <input class="form-control" id="itemDescription" type="text">
                                 </div>
                             </div>
 
                             <div class="col-5">
                                 <div class="form-group">
                                     <label>Qty On Hand</label>
-                                    <input class="form-control" id="formFile2" type="text">
+                                    <input class="form-control" id="qtyOnHand" type="text">
                                 </div>
                             </div>
 
                             <div class="col-4">
                                 <div class="form-group">
                                     <label>Unit Price</label>
-                                    <input class="form-control" id="formFile3" type="text">
+                                    <input class="form-control" id="unitPrice" type="text">
                                 </div>
                             </div>
 
                             <div class="col-3">
                                 <div class="form-group">
                                     <label>Qty</label>
-                                    <input class="form-control" id="formFile4" type="text">
+                                    <input class="form-control" id="qty" type="text">
                                 </div>
                             </div>
                             <div class="add-button">
@@ -310,18 +310,8 @@
                         <th>Action</th>
                     </tr>
                     </thead>
-                    <tbdoy>
-                        <tr>
-                            <td>I001</td>
-                            <td>Biscuit</td>
-                            <td>70</td>
-                            <td>2</td>
-                            <td>140</td>
-                            <td class="odd">
-                                <button class="btn btn-danger btn-mini"><i class="fa-solid fa-trash"></i> Delete
-                                </button>
-                            </td>
-                        </tr>
+                    <tbdoy id="tblItem">
+
                     </tbdoy>
 
 
