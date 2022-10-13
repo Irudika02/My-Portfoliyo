@@ -13,6 +13,12 @@ $("#saveItem").click(function (){
         unitPrice: unitPrice,
 
     }
+    items.push(itemObject);
+
+    clearItemData();
+    loadAllItems();
+    bindRowClickEventTable();
+    loadAllItemForOption();
 });
 
 function loadAllItems() {
@@ -77,4 +83,18 @@ function updateItem(itemCode) {
     }else {
         return false;
     }
+}
+$("#tblItem").on("click", ".delete-item", function (){
+    if (confirm("Are you sure want to delete this record!")) {
+        $(this).closest('tr').remove();
+    } else {
+        alert("No such item to delete.");
+    }
+});
+
+function clearItemData() {
+    $("#txtItemCode").val("");
+    $("#txtItemName").val("");
+    $("#txtItemQty").val("");
+    $("#txtItemUnitPrice").val("");
 }
