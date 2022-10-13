@@ -10,3 +10,31 @@ itemValidations.push({reg: itemCodeRegEx, field: $('#txtItemCode'),error:'Item C
 itemValidations.push({reg: itemNameRegEx, field: $('#txtItemName'),error:'Item Name Pattern is Wrong : A-z 5-20'});
 itemValidations.push({reg: itemQtyRegEx, field: $('#txtItemQty'),error:'Ite Qty Pattern is Wrong : 0-9 ,/'});
 itemValidations.push({reg: itemUnitPriceRegEx, field: $('#txtItemUnitPrice'),error:'Item Unit Pattern is Wrong : 0-9 ,/'});
+
+$("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('keydown', function (event) {
+    if (event.key == "Tab") {
+        event.preventDefault();
+    }
+});
+
+$("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('keyup', function (event) {
+    checkValidityItem();
+});
+
+$("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").on('blur', function (event) {
+    checkValidityItem();
+});
+
+
+function checkValidityItem() {
+    let errorCount=0;
+    for (let validation of itemValidations) {
+        if (check(validation.reg,validation.field)) {
+            textSuccess(validation.field,"");
+        } else {
+            errorCount=errorCount+1;
+            setTextError(validation.field,validation.error);
+        }
+    }
+    setItemButtonState(errorCount);
+}
