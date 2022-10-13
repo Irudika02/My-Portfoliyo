@@ -77,3 +77,11 @@ function setTextError(txtField,error) {
         txtField.parent().children('span').text(error);
     }
 }
+function textSuccess(txtField,error) {
+    if (txtField.val().length <= 0) {
+        defaultText(txtField,"");
+    } else {
+        txtField.css('border', '2px solid green');
+        txtField.parent().children('span').text(error);
+    }
+}
