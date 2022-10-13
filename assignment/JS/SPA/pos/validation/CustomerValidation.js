@@ -52,3 +52,8 @@ $("#txtCustomerName").on('keydown', function (event) {
         focusText($("#txtCustomerAddress"));
     }
 });
+$("#txtCustomerAddress").on('keydown', function (event) {
+    if (event.key == "Enter" && check(cusAddressRegEx, $("#txtCustomerAddress"))) {
+        focusText($("#txtCustomerContact"));
+    }
+});
