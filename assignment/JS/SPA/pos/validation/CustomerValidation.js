@@ -62,6 +62,14 @@ $("#txtCustomerContact").on('keydown', function (event) {
         focusText($("#txtCustomerSalary"));
     }
 });
+$("#txtCustomerSalary").on('keydown', function (event) {
+    if (event.key == "Enter" && check(cusSalaryRegEx, $("#txtCustomerSalary"))) {
+        let res = confirm("Do you want to add this customer.?");
+        if (res) {
+            clearAllTexts();
+        }
+    }
+});
 
 
 function check(regex, txtField) {
@@ -99,4 +107,9 @@ function setButtonState(value){
     }else{
         $("#saveCustomer").attr('disabled',false);
     }
+}
+function clearAllTexts() {
+    $("#txtCustomerID").focus();
+    $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact,#txtCustomerSalary").val("");
+    checkValidity();
 }
