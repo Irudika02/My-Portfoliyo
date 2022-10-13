@@ -57,3 +57,8 @@ $("#txtCustomerAddress").on('keydown', function (event) {
         focusText($("#txtCustomerContact"));
     }
 });
+$("#txtCustomerContact").on('keydown', function (event) {
+    if (event.key == "Enter" && check(cusAddressRegEx, $("#txtCustomerContact"))) {
+        focusText($("#txtCustomerSalary"));
+    }
+});
