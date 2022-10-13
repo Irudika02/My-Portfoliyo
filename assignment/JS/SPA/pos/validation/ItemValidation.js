@@ -38,3 +38,10 @@ function checkValidityItem() {
     }
     setItemButtonState(errorCount);
 }
+$("#txtItemCode").on('keydown', function (event) {
+    if (event.key == "Enter" && check(itemCodeRegEx, $("#txtItemCode"))) {
+        $("#txtItemName").focus();
+    } else {
+        focusText($("#txtItemCode"));
+    }
+});
