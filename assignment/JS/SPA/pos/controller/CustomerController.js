@@ -88,3 +88,18 @@ function updateCustomer(customerID) {
         return false;
     }
 }
+$("#tblCustomer").on("click", ".delete", function () {
+    if (confirm("Are you sure want to delete this record!")) {
+        $(this).closest('tr').remove();
+    } else {
+        alert("No such customer to delete.");
+    }
+});
+
+function clearData() {
+    $("#txtCustomerID").val("");
+    $("#txtCustomerName").val("");
+    $("#txtCustomerAddress").val("");
+    $("#txtCustomerContact").val("");
+    $("#txtCustomerSalary").val("");
+}
