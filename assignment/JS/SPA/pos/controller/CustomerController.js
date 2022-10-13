@@ -8,15 +8,11 @@ $("#saveCustomer").click(function () {
     let customerSalary = $("#txtCustomerSalary").val();
 
     // customer object
-    var customerObject = {
-        id: customerID,
-        name: customerName,
-        address: customerAddress,
-        contact: customerContact,
-        salary: customerSalary
-    }
+    var customer = saveCustomer(customerID,customerName,customerAddress,customerContact,customerSalary);
+
+
     // push data
-    customers.push(customerObject);
+    customers.push(customer);
 
 
     clearData();
