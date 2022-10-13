@@ -404,22 +404,27 @@
                         <div class="mb-3">
                             <label class="form-label" for="txtCustomerID">Customer ID</label>
                             <input class="form-control" id="txtCustomerID" type="text">
+                            <span class="control-error" id="lblCusID"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtCustomerName">Customer Name</label>
                             <input class="form-control" id="txtCustomerName" multiple type="text">
+                            <span class="control-error" id="lblCusName"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtCustomerAddress">Customer Address</label>
                             <input class="form-control" id="txtCustomerAddress" type="text">
+                            <span class="control-error" id="lblCusAddress"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtCustomerContact">Customer Contact</label>
                             <input class="form-control" id="txtCustomerContact" type="text">
+                            <span class="control-error" id="lblCusContact"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtCustomerSalary">Customer Salary</label>
                             <input class="form-control form-control-sm" id="txtCustomerSalary" type="number">
+                            <span class="control-error" id="lblCusSalary"></span>
                         </div>
 
 
@@ -501,7 +506,7 @@
                 <button class="btn btn-outline-success" type="submit"style="background-color: #D07E1E">Search</button>
             </form>
             <div class="add">
-                <button type="button" class="btn btn-secondary add-cus" data-bs-target="#exampleModal"
+                <button type="button" class="btn btn-secondary add-cus" data-bs-target="#saveItems"
                         data-bs-toggle="modal"style="color: black">
                     Add Item
                 </button>
@@ -544,23 +549,24 @@
                         <div class="mb-3">
                             <label class="form-label" for="txtItemCode">Item Code</label>
                             <input class="form-control" id="txtItemCode" type="text">
+                            <span class="control-error" id="lblItemCode"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtItemName">Item Name</label>
                             <input class="form-control" id="txtItemName" multiple type="text">
+                            <span class="control-error" id="lblItemName"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtItemQty">Qty</label>
                             <input class="form-control" id="txtItemQty" type="number">
+                            <span class="control-error" id="lblItemQty"></span>
                         </div>
                         <div class="mb-3">
                             <label class="form-label" for="txtItemUnitPrice">Uniq Price</label>
                             <input class="form-control" id="txtItemUnitPrice" type="number">
+                            <span class="control-error" id="lblItemUnitPrice"></span>
                         </div>
-                        <div class="mb-3">
-                            <label class="form-label" for="txtItemTotal">Total</label>
-                            <input class="form-control form-control-sm" id="txtItemTotal" type="number">
-                        </div>
+
 
 
                         <div aria-label="Basic mixed styles example" class="btn-group" role="group">
@@ -600,10 +606,6 @@
                         <div class="mb-3">
                             <label class="form-label" for="txtItemUnitPriceEdit">Uniq Price</label>
                             <input class="form-control" id="txtItemUnitPriceEdit" type="number">
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label" for="txtItemTotalEdit">Total</label>
-                            <input class="form-control form-control-sm" id="txtItemTotalEdit" type="number">
                         </div>
 
 
@@ -645,9 +647,7 @@
                                 <div class="form-group">
                                     <label>Customer Id</label>
                                     <select class="form-select" id="customerID">
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+
                                     </select>
                                 </div>
                             </div>
@@ -655,18 +655,15 @@
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Customer Name</label>
-                                    <input class="form-control" id="formFile6" type="text">
+                                    <input class="form-control" id="orderCustomerName" type="text">
                                 </div>
                             </div>
 
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Item Code</label>
-                                    <select class="form-select">
-                                        <option selected>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                    <select class="form-select" id="selectItemCode">
+
                                     </select>
                                 </div>
                             </div>
@@ -699,7 +696,7 @@
                                 </div>
                             </div>
                             <div class="add-button">
-                                <button type="button" class="btn btn-primary col-12 col-sm-auto">Add Item</button>
+                                <button type="button" class="btn btn-primary col-12 col-sm-auto" id="addItem">Add Item</button>
                             </div>
 
                         </div>
@@ -794,11 +791,11 @@
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 
 <!--main content-->
-<script src="/assignment/JS/SPA/pos/db/db.js"></script>
-<script src="/assignment/JS/SPA/pos/controller/DashboardController.js"></script>
-<script src="/assignment/JS/SPA/pos/controller/CustomerController.js"></script>
-<script src="/assignment/JS/SPA/pos/controller/ItemController.js"></script>
-<script src="/assignment/JS/SPA/pos/controller/PurchaseOrderController.js"></script>
+<script src="pos/db/db.js"></script>
+<script src="pos/controller/DashboardController.js"></script>
+<script src="pos/controller/CustomerController.js"></script>
+<script src="pos/controller/ItemController.js"></script>
+<script src="pos/controller/PurchaseOrderController.js"></script>
 
 </body>
 </html>
