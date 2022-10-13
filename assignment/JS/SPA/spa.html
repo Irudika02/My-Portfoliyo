@@ -792,35 +792,13 @@
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
-<script>
-    $("#home").click(function () {
-        $("#main1").css("display","inline")
-        $("#main2").css("display","none")
-        $("#main3").css("display","none")
-        $("#main4").css("display","none")
-    });
 
-    $("#customer").click(function () {
-        $("#main1").css("display","none")
-        $("#main2").css("display","flex")
-        $("#main3").css("display","none")
-        $("#main4").css("display","none")
-    });
+<!--main content-->
+<script src="/assignment/JS/SPA/pos/db/db.js"></script>
+<script src="/assignment/JS/SPA/pos/controller/DashboardController.js"></script>
+<script src="/assignment/JS/SPA/pos/controller/CustomerController.js"></script>
+<script src="/assignment/JS/SPA/pos/controller/ItemController.js"></script>
+<script src="/assignment/JS/SPA/pos/controller/PurchaseOrderController.js"></script>
 
-    $("#item").click(function () {
-        $("#main1").css("display","none")
-        $("#main2").css("display","none")
-        $("#main3").css("display","flex")
-        $("#main4").css("display","none")
-    });
-
-    $("#orders").click(function () {
-        $("#main1").css("display","none")
-        $("#main2").css("display","none")
-        $("#main3").css("display","none")
-        $("#main4").css("display","flex")
-    });
-
-</script>
 </body>
 </html>
