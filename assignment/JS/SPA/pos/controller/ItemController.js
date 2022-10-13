@@ -29,3 +29,26 @@ function loadAllItems() {
         $("#tblItem").append(all);
     }
 }
+
+function searchItem(code) {
+    for (let item of items){
+        if (item.code == code){
+            return item;
+        }
+    }
+}
+
+function bindRowClickEventTable() {
+    $("#tblItem>tr").click(function () {
+        let code = $(this).children(":eq(0)").text();
+        let itemName = $(this).children(":eq(1)").text();
+        let qty = $(this).children(":eq(2)").text();
+        let unitPrice = $(this).children(":eq(3)").text();
+
+        $("#txtItemCodeEdit").val(code);
+        $("#txtItemNameEdit").val(itemName);
+        $("#txtItemQtyEdit").val(qty);
+        $("#txtItemUnitPriceEdit").val(unitPrice);
+
+    });
+}
