@@ -93,3 +93,10 @@ function defaultText(txtField,error) {
 function focusText(txtField) {
     txtField.focus();
 }
+function setButtonState(value){
+    if (value>0){
+        $("#saveCustomer").attr('disabled',true);
+    }else{
+        $("#saveCustomer").attr('disabled',false);
+    }
+}
