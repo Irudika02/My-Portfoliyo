@@ -33,3 +33,10 @@ function loadAllCustomers() {
         $("#tblCustomer").append(all);
     }
 }
+function searchCustomer(cusID) {
+    for (let customer of customers) {
+        if (customer.id == cusID) {
+            return customer;
+        }
+    }
+}
