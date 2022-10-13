@@ -15,6 +15,7 @@ $("#saveCustomer").click(function () {
         contact: customerContact,
         salary: customerSalary
     }
+
 });
 
 function loadAllCustomers() {
