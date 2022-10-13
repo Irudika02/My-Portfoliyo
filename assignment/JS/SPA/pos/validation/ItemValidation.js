@@ -55,3 +55,10 @@ $("#txtItemQty").on('keydown', function (event) {
         focusText($("#txtItemUnitPrice"));
     }
 });
+
+
+
+function check(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
