@@ -40,3 +40,10 @@ function checkValidity() {
     }
     setButtonState(errorCount);
 }
+$("#txtCustomerID").on('keydown', function (event) {
+    if (event.key == "Enter" && check(cusIDRegEx, $("#txtCustomerID"))) {
+        $("#txtCustomerName").focus();
+    } else {
+        focusText($("#txtCustomerID"));
+    }
+});
