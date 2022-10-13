@@ -56,7 +56,14 @@ $("#txtItemQty").on('keydown', function (event) {
     }
 });
 
-
+$("#txtItemUnitPrice").on('keydown', function (event) {
+    if (event.key == "Enter" && check(itemUnitPriceRegEx, $("#txtItemUnitPrice"))) {
+        let res = confirm("Do you want to add this item.?");
+        if (res) {
+            clearAllTexts();
+        }
+    }
+});
 
 function check(regex, txtField) {
     let inputValue = txtField.val();
@@ -93,4 +100,9 @@ function setItemButtonState(value){
     }else{
         $("#saveItem").attr('disabled',false);
     }
+}
+function clearAllTexts() {
+    $("#txtItemCode").focus();
+    $("#txtItemCode,#txtItemName,#txtItemQty,#txtItemUnitPrice").val("");
+    checkValidity();
 }
