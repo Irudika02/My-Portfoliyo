@@ -40,3 +40,26 @@ function searchCustomer(cusID) {
         }
     }
 }
+
+
+$(document).on("click", "#btn-edit", function () {
+    bindRowClickEvents();
+});
+
+function bindRowClickEvents() {
+    $("#tblCustomer>tr").click(function () {
+        let id = $(this).children(":eq(0)").text();
+        let name = $(this).children(":eq(1)").text();
+        let address = $(this).children(":eq(2)").text();
+        let contact = $(this).children(":eq(3)").text();
+        let salary = $(this).children(":eq(4)").text();
+
+        $("#txtCustomerIDEdit").val(id);
+        $("#txtCustomerNameEdit").val(name);
+        $("#txtCustomerAddressEdit").val(address);
+        $("#txtCustomerContactEdit").val(contact);
+        $("#txtCustomerSalaryEdit").val(salary);
+
+    });
+
+}
