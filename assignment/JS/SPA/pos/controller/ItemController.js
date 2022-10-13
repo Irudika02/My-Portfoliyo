@@ -1,4 +1,4 @@
-$("#saveItem").click(function (){
+$("#saveItems").click(function (){
 
     let itemCode = $("#txtItemCode").val();
     let itemName = $("#txtItemName").val();
