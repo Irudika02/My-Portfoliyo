@@ -85,3 +85,11 @@ function textSuccess(txtField,error) {
         txtField.parent().children('span').text(error);
     }
 }
+function defaultText(txtField,error) {
+    txtField.css("border", "1px solid #ced4da");
+    txtField.parent().children('span').text(error);
+}
+
+function focusText(txtField) {
+    txtField.focus();
+}
