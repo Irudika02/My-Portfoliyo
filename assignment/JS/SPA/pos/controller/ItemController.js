@@ -37,6 +37,9 @@ function searchItem(code) {
         }
     }
 }
+$(document).on("click", "#btn-editItem", function (){
+    bindRowClickEventTable()
+});
 
 function bindRowClickEventTable() {
     $("#tblItem>tr").click(function () {
@@ -52,3 +55,12 @@ function bindRowClickEventTable() {
 
     });
 }
+$("#updateItem").click(function (){
+    let itemCode =  $("#txtItemCodeEdit").val();
+    let message = updateItem(itemCode);
+    if (message){
+        alert("Item Update Successfully");
+    }else {
+        alert("Update Failed..!");
+    }
+});
