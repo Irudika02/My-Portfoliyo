@@ -15,7 +15,14 @@ $("#saveCustomer").click(function () {
         contact: customerContact,
         salary: customerSalary
     }
+    // push data
+    customers.push(customerObject);
 
+
+    clearData();
+    loadAllCustomers();
+    bindRowClickEvents();
+    loadAllCustomersForOption();
 });
 
 function loadAllCustomers() {
