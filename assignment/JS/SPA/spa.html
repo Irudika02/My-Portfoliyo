@@ -241,15 +241,16 @@
             color: black;
         }
 
-        #order .cus-table {
+        #order .order-table  {
             margin-top: 25px;
+            height: 38vh;
             background-color: #EFDBCF;
         }
 
         #order .order-detail {
             margin-top: 25px;
-            /*margin-left: 20px;*/
-            /*margin-right: 20px;*/
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         #order .add-button {
@@ -763,12 +764,13 @@
                 <table class="table table-bordered">
                     <thead class="bg-danger text-white">
                     <tr style="background-color:  #EC9463">
+                        <th>Id</th>
                         <th>Code</th>
                         <th>Description</th>
                         <th>Unit Prince</th>
                         <th>Qty</th>
                         <th>Total</th>
-                        <th>Action</th>
+
                     </tr>
                     </thead>
                     <tbody id="tblOrder">
@@ -778,9 +780,43 @@
             </div>
         </section>
     </section>
-
-
 </main>
+
+<!-- order-detail
+   ============================================= -->
+<main id="orderDetailContent">
+    <section class="main-section">
+        <section class="item-head">
+            <ul class="breadcrumb">
+                <img src="" width="35px">
+                <li><a href="#">Dashboard /</a></li>
+                <li class="active"> Order-Detail</li>
+            </ul>
+        </section>
+
+        <section class="Order-Detail">
+            <div div class="col-md-12 mt-4" style="height:430px; overflow-y: scroll">
+                <table class="table table-bordered">
+                    <thead class="bg-danger text-white">
+                    <tr style="background-color:  #EC9463" >
+                        <th>OrderId</th>
+                        <th>Date</th>
+                        <th>Cus Id</th>
+                        <th>Item Code</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblOrderDetail">
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
+</main>
+
 
 
 <script src="assets/js/bootstrap.min.js"></script>
