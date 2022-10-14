@@ -64,6 +64,8 @@ function bindRowClickEvents() {
         $("#txtCustomerContactEdit").val(contact);
         $("#txtCustomerSalaryEdit").val(salary);
 
+        $("#txtCustomerID").val(id);
+
     });
 
 }
@@ -92,13 +94,36 @@ function updateCustomer(customerID) {
         return false;
     }
 }
-$("#tblCustomer").on("click", ".delete", function () {
-    if (confirm("Are you sure want to delete this record!")) {
-        $(this).closest('tr').remove();
-    } else {
-        alert("No such customer to delete.");
+$('#delete').click(function () {
+    let deleteID = $("#txtCustomerID").val();
+
+    let option = confirm("Do you really want to delete " + deleteID);
+
+    if (option) {
+        if (deleteCustomer(deleteID)) {
+            alert("Customer Successfully Deleted..");
+            clearData();
+        } else {
+            alert("No such customer to delete. please check the id");
+        }
     }
+
 });
+
+function deleteCustomer(cusId) {
+    let customer = searchCustomer(cusId);
+
+    if (customer != null) {
+        let IndexNumber = customers.indexOf(customer);
+        customers.splice(IndexNumber, 1);
+        loadAllCustomers();
+        bindRowClickEvents();
+        return true;
+
+    } else {
+        return false;
+    }
+}
 
 function clearData() {
     $("#txtCustomerID").val("");
