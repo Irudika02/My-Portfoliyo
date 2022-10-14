@@ -23,8 +23,7 @@ function loadAllItems() {
         var all = `<tr><td>${item.code}</td><td>${item.itemName}</td><td>${item.qty}</td><td>${item.unitPrice}</td>
                         <td><button class="btn btn-warning btn-mini" data-bs-target="#editItems"
                         data-bs-toggle="modal" id="btn-editItem"><i class="fa-solid fa-pen-to-square"></i> Edit
-                        </button>
-                        <button class="btn btn-danger btn-mini delete-item"><i class="fa-solid fa-trash"></i> Delete</button>
+                        </button>                       
                         </td>
                     </tr>`;
         $("#tblItem").append(all);

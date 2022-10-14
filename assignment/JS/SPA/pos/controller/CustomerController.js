@@ -30,7 +30,6 @@ function loadAllCustomers() {
                         <td><button class="btn btn-warning btn-mini" data-bs-target="#editCustomers"
                         data-bs-toggle="modal" id="btn-edit"><i class="fa-solid fa-pen-to-square"></i> Edit
                         </button>
-                        <button class="btn btn-danger btn-mini delete"><i class="fa-solid fa-trash"></i> Delete</button>
                         </td>
                     </tr>`;
 
