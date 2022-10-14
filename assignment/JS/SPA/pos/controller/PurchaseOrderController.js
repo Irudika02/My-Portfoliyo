@@ -1,3 +1,7 @@
+$(document).ready(function (){
+    generateOrderID();
+});
+
 function loadAllCustomersForOption() {
     $("#selectCustomerID").empty();
     for (let cus of customers) {
@@ -52,15 +56,15 @@ function loadAllOrder() {
     for (var order of orders){
         let total = order.qty * order.price;
         $("#total").text(total);
-        var all = `<tr><td>${order.code}</td><td>${order.itemName}</td><td>${order.price}</td><td>${order.qty}</td><td>${total}</td>
-                        <td>
-                        <button class="btn btn-danger btn-mini delete-order"><i class="fa-solid fa-trash"></i> Delete</button>
-                        </td>
+        $("#subtotal").text(total);
+        var all = `<tr><td>${order.id}</td><td>${order.code}</td><td>${order.itemName}</td><td>${order.price}</td><td>${order.qty}</td><td>${total}</td>
+                       
                     </tr>`;
         $("#tblOrder").append(all);
     }
 
 }
+
 
 function itemQtyLoad(ItemCode, Qty) {
     for (var item of items){
@@ -74,13 +78,6 @@ function itemQtyLoad(ItemCode, Qty) {
 
 }
 
-$("#tblOrder").on("click", ".delete-order", function (){
-    if (confirm("Are you sure want to delete this record!")) {
-        $(this).closest('tr').remove();
-    } else {
-        alert("No such item to delete.");
-    }
-});
 function cleatOrderData() {
     $("#selectCustomerID").val("");
     $("#orderCustomerName").val("");
@@ -89,4 +86,75 @@ function cleatOrderData() {
     $("#qtyOnHand").val("");
     $("#unitPrice").val("");
     $("#qty").val("");
+}
+
+$("#btnSubmitOrder").click(function (){
+    let oId = $("#orderID").val();
+    let date = $("#txtOrderDate").val();
+    let id = $("#tblOrder>tr").children(":eq(0)").text();
+    let code = $("#tblOrder>tr").children(":eq(1)").text();
+    let unitPrice = $("#tblOrder>tr").children(":eq(3)").text();
+    let qty = $("#tblOrder>tr").children(":eq(4)").text();
+    let total = $("#tblOrder>tr").children(":eq(5)").text();
+
+    let orderDetailAll = orderDetail(oId,date,id,code,unitPrice,qty,total);
+
+    orderDetails.push(orderDetailAll);
+    clearOrder();
+});
+
+function generateOrderID() {
+    $("#orderID").val("OID-001");
+}
+
+function date(){
+    let date = new Date();
+    let value = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
+    $("#txtDate").text(value);
+
+}
+
+function clearOrder(){
+    orders.splice(0, orders.length);
+    $("#tblOrder").empty();
+}
+
+$("#update").click(function (){
+    let orderId = $("#orderID").val();
+    let message = updateOrder(orderId);
+    if (message) {
+        alert("Order Updated Successfully");
+    } else {
+        alert("Update Failed..!");
+
+    }
+});
+
+function updateOrder(orderId) {
+    let orderD = searchOrder(orderId);
+
+    if (orderD!= null) {
+        orderD.id = $("#selectCustomerID").val();
+        orderD.name = $("#orderCustomerName").val();
+        orderD.code = $("#selectItemCode").val();
+        orderD.itemName = $("#itemDescription").val();
+        orderD.qtyOnHand = $("#qtyOnHand").val();
+        orderD.price = $("#unitPrice").val();
+        orderD.qty = $("#qty").val();
+
+        loadAllOrder();
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+function searchOrder(orderId){
+    for (let o of orders){
+        if (o.orderId == orderId){
+            return o;
+        }
+    }
+    return null;
 }
