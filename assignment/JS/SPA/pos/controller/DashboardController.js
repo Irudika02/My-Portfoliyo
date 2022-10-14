@@ -25,3 +25,10 @@ $("#orders").click(function () {
     $("#itemContent").css("display","none")
     $("#orderContent").css("display","flex")
 });
+$("#order-Detail").click(function () {
+    $("#dashboardContent").css("display","none")
+    $("#customerContent").css("display","none")
+    $("#itemContent").css("display","none")
+    $("#orderContent").css("display","none")
+    $("#orderDetailContent").css("display","flex");
+});
