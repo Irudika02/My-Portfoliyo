@@ -1,6 +1,5 @@
-function saveOrder(orderId,cusId,cusName,itemCode,itemName,qtyOnHand,unitPrice,qty){
+function saveOrder(cusId,cusName,itemCode,itemName,qtyOnHand,unitPrice,qty){
     return{
-        orderId:orderId,
         id: cusId,
         name: cusName,
         code: itemCode,

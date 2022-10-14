@@ -32,6 +32,7 @@ $("#selectItemCode").click(function (){
 });
 
 $("#addItem").click(function (message){
+    let oId = $("#orderID").val();
     let cusId = $("#selectCustomerID").val();
     let cusName = $("#orderCustomerName").val();
     let itemCode = $("#selectItemCode").val();
@@ -40,7 +41,7 @@ $("#addItem").click(function (message){
     let unitPrice = $("#unitPrice").val();
     let qty = $("#qty").val();
 
-    var order = saveOrder(cusId,cusName,itemCode,itemName,qtyOnHand,unitPrice,qty);
+    var order = saveOrder( oId,cusId,cusName,itemCode,itemName,qtyOnHand,unitPrice,qty);
 
     orders.push(order);
 
