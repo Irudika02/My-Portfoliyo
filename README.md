@@ -7,6 +7,8 @@ Wire-frame URL :https://wireframe.cc/dqpwER
 
 Mock-up URL :https://www.figma.com/file/CYeeEKJmia4NAbQ7QYMA1B/Untitled?node-id=2%3A2
 
+github page URL :https://irudika02.github.io/My-Portfoliyo/#
+
 
 # POS-System
 
