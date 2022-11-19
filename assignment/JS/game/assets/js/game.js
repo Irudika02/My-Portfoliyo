@@ -43,8 +43,14 @@ jumpImageNumber=1;
 jumpAnimationNumber=0;
 function jumpAnimation() {
     jumpImageNumber=jumpImageNumber+1;
+
+
+
+
     if (jumpImageNumber==15){
+
         jumpImageNumber=1;
+
         clearInterval(jumpAnimationNumber);
         jumpAnimationNumber=0;
         runImageNumber=0;
@@ -74,7 +80,16 @@ function keyCheck(event){
     if (moveBackgoundAnimationId==0){
        moveBackgoundAnimationId= setInterval(moveBackgound,100);
     }
-}}
+}
+    if (keyCode==32){
+        if (jumpAnimationNumber==0){
+            jumpAnimationStart();
+        }
+        if (moveBackgoundAnimationId==0){
+            moveBackgoundAnimationId= setInterval(moveBackgound,100);
+        }
+    }
+}
 
 
 var backgoundImagePositionX = 0;
