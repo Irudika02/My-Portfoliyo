@@ -48,3 +48,15 @@ function keyCheck(event){
         }
     }
 }
+
+
+var backgoundImagePositionX = 0;
+
+function moveBackgound() {
+    backgoundImagePositionX =backgoundImagePositionX-20;
+
+
+    document.getElementById("background").style.backgroundPositionX=backgoundImagePositionX+"px";
+
+
+}
