@@ -1,5 +1,5 @@
 var boy=document.getElementById("boy");
-idleImageNumber =0;
+idleImageNumber =1;
 idleAnimationNumber =0;
 
 
@@ -20,7 +20,7 @@ function idleAnimationStart(){
 
 
 
-runImageNumber =0;
+runImageNumber =1;
 runAnimationNumber=0;
 
 function runAnimation() {
@@ -37,6 +37,30 @@ function runAnimationStart(){
     runAnimationNumber = setInterval(runAnimation,200);
     clearInterval(idleAnimationNumber);
 }
+
+
+jumpImageNumber=1;
+jumpAnimationNumber=0;
+function jumpAnimation() {
+    jumpImageNumber=jumpImageNumber+1;
+    if (jumpImageNumber==15){
+        jumpImageNumber=1;
+        clearInterval(jumpAnimationNumber);
+        jumpAnimationNumber=0;
+        runImageNumber=0;
+        runAnimationStart();
+    }
+
+    boy.src="assets/image/boy/Jump%20("+jumpImageNumber+").png"
+
+}
+function jumpAnimationStart() {
+    clearInterval(idleAnimationNumber);
+    runImageNumber=0;
+    clearInterval(runAnimationNumber);
+    jumpAnimationNumber=setInterval(jumpAnimation,100);
+
+}
 function keyCheck(event){
    // alert(event.which);
 
@@ -46,11 +70,11 @@ function keyCheck(event){
         if (runAnimationNumber==0){
             runAnimationStart();
         }
-    }
+
     if (moveBackgoundAnimationId==0){
        moveBackgoundAnimationId= setInterval(moveBackgound,100);
     }
-}
+}}
 
 
 var backgoundImagePositionX = 0;
