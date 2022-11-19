@@ -30,7 +30,7 @@ function runAnimation() {
         runImageNumber =1;
     }
 
-    boy.src="assets/image/boy/run("+runImageNumber+").png";
+    boy.src="assets/image/boy/Run%20("+runImageNumber+").png";
 
 }
 function runAnimationStart(){
@@ -38,5 +38,13 @@ function runAnimationStart(){
     clearInterval(idleAnimationNumber);
 }
 function keyCheck(event){
-    alert(event.which);
+   // alert(event.which);
+
+    var keyCode=event.which;
+
+    if (keyCode==13){
+        if (runAnimationNumber==0){
+            runAnimationStart();
+        }
+    }
 }
