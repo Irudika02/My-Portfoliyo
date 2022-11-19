@@ -47,10 +47,14 @@ function keyCheck(event){
             runAnimationStart();
         }
     }
+    if (moveBackgoundAnimationId==0){
+       moveBackgoundAnimationId= setInterval(moveBackgound,100);
+    }
 }
 
 
 var backgoundImagePositionX = 0;
+var moveBackgoundAnimationId= 0;
 
 function moveBackgound() {
     backgoundImagePositionX =backgoundImagePositionX-20;

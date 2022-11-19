@@ -6,6 +6,7 @@
     height: 100vh;
     background-image: url("../image/background2.jpg") ;
     background-size: cover;
+    backgound-repeat:repeat-x;
 
 }
 .boy{
