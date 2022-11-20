@@ -66,7 +66,7 @@ if (jumpImageNumber>=7){
         runAnimationStart();
     }
 
-    boy.src="assets/image/boy/Jump%20 ("+jumpImageNumber+").png"
+    boy.src="assets/image/boy/Jump%20("+jumpImageNumber+").png"
 
 }
 function jumpAnimationStart() {
@@ -112,9 +112,12 @@ function moveBackgound() {
 
 
 }
+
+boyMarginLeft=500;
+
 function createBoxes() {
    var box=document.createElement("div");
    box.className="box";
    document.getElementById("background").appendChild(box);
-
+box.style.marginLeft=boyMarginLeft+"px";
 }
