@@ -113,7 +113,7 @@ function moveBackgound() {
 
 }
 
-boxMarginLeft=500;
+boxMarginLeft=1500;
 
 function createBoxes() {
 
