@@ -11,6 +11,13 @@
 }
 .boy{
     height:230px;
-    margin-top: 250px;
+    margin-top: 300px;
     position: absolute;
+}
+.box{
+    width :100px;
+    height: 100px;
+    background-color: #ff253a;
+    position: absolute;
+    margin-top: 440px;
 }

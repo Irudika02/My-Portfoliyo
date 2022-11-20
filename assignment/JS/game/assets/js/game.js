@@ -41,7 +41,7 @@ function runAnimationStart(){
 
 jumpImageNumber=1;
 jumpAnimationNumber=0;
-boyMarginTop=250;
+boyMarginTop=300;
 function jumpAnimation() {
     jumpImageNumber=jumpImageNumber+1;
 
@@ -52,6 +52,7 @@ if (jumpImageNumber<=6){
 if (jumpImageNumber>=7){
     boyMarginTop=boyMarginTop+20;
     boy.style.marginTop=boyMarginTop+"px";
+
 }
 
 
@@ -65,7 +66,7 @@ if (jumpImageNumber>=7){
         runAnimationStart();
     }
 
-    boy.src="assets/image/boy/Jump%20("+jumpImageNumber+").png"
+    boy.src="assets/image/boy/Jump%20 ("+jumpImageNumber+").png"
 
 }
 function jumpAnimationStart() {
@@ -109,5 +110,11 @@ function moveBackgound() {
 
     document.getElementById("background").style.backgroundPositionX=backgoundImagePositionX+"px";
 
+
+}
+function createBoxes() {
+   var box=document.createElement("div");
+   box.className="box";
+   document.getElementById("background").appendChild(box);
 
 }
