@@ -3,7 +3,6 @@ idleImageNumber =1;
 idleAnimationNumber =0;
 
 
-
 function idleAnimation(){
     idleImageNumber = idleImageNumber +1;
     if (idleImageNumber == 16){
@@ -15,8 +14,6 @@ function idleAnimation(){
 function idleAnimationStart(){
     idleAnimationNumber = setInterval(idleAnimation,200);
 }
-
-
 
 
 
