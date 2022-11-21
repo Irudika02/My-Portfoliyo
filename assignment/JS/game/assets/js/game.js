@@ -45,11 +45,11 @@ boyMarginTop=300;
 function jumpAnimation() {
     jumpImageNumber=jumpImageNumber+1;
 
-if (jumpImageNumber<=6){
+if (jumpImageNumber<=9){
     boyMarginTop=boyMarginTop-20;
     boy.style.marginTop=boyMarginTop+"px";
 }
-if (jumpImageNumber>=7){
+if (jumpImageNumber>=8){
     boyMarginTop=boyMarginTop+20;
     boy.style.marginTop=boyMarginTop+"px";
 
