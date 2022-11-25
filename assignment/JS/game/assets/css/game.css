@@ -21,8 +21,8 @@
     height:300px;
 
     position: absolute;
-    margin-top: 325px;
+    margin-top: 315px;
     background-image: url("../image/ttt.gif");
     background-size:contain;
-    backgound-repeat:no-repeate;
+    background-repeat: no-repeat;
 }
