@@ -43,11 +43,11 @@ function jumpAnimation() {
     jumpImageNumber=jumpImageNumber+1;
 
 if (jumpImageNumber<=9){
-    boyMarginTop=boyMarginTop-20;
+    boyMarginTop=boyMarginTop-35;
     boy.style.marginTop=boyMarginTop+"px";
 }
 if (jumpImageNumber>=8){
-    boyMarginTop=boyMarginTop+20;
+    boyMarginTop=boyMarginTop+35;
     boy.style.marginTop=boyMarginTop+"px";
 
 }
@@ -116,7 +116,7 @@ function moveBackgound() {
 
 }
 
-boxMarginLeft=1000;
+boxMarginLeft=1540;
 
 function createBoxes() {
 
@@ -132,10 +132,10 @@ function createBoxes() {
        boxMarginLeft=boxMarginLeft+1000;
 
        if (i<5){
-           boxMarginLeft=boxMarginLeft+1000;
+           boxMarginLeft=boxMarginLeft+2000;
        }
        if (i>=5){
-           boxMarginLeft=boxMarginLeft+500;
+           boxMarginLeft=boxMarginLeft+1000;
        }
     }
 }
@@ -144,9 +144,37 @@ function boxAnimation() {
     for (var i=0;i<10;i++){
         var box=document.getElementById("box"+i);
         var currentMarginLeft=getComputedStyle(box).marginLeft;
-        var newMarginLeft=parseInt(currentMarginLeft)-25;
+        var newMarginLeft=parseInt(currentMarginLeft)-35;
         box.style.marginLeft=newMarginLeft+ "px";
+
+        if (newMarginLeft>=-110 & newMarginLeft<=100){
+            if (boyMarginTop>300){
+                clearInterval(boxAnimationId);
+                clearInterval(runAnimationNumber);
+                runAnimationNumber=-1;
+
+                clearInterval(jumpAnimationNumber);
+                jumpAnimationNumber=-1;
+
+                clearInterval(moveBackgoundAnimationId);
+                moveBackgoundAnimationId=-1;
+
+                deadAnimationNumber =setInterval(boyDeadAnimation,100);
+            }
+        }
 
     }
 }
 
+function boyDeadAnimation() {
+
+    deadImageNumber=deadImageNumber+1;
+
+    if (deadImageNumber==16){
+        deadImageNumber = 15;
+
+    }
+
+    boy.src="assets/image/boy/Dead%20("+deadImageNumber+").png";
+
+}
