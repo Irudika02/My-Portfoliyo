@@ -17,12 +17,12 @@
     position: absolute;
 }
 .box{
-    width :200px;
-    height:200px;
+    width :400px;
+    height:300px;
 
     position: absolute;
-    margin-top: 395px;
-    background-image: url("../image/Fire-GIF-Image-for-Whatsapp-and-Facebook-20-1.gif");
+    margin-top: 325px;
+    background-image: url("../image/ttt.gif");
     background-size:contain;
     backgound-repeat:no-repeate;
 }
