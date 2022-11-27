@@ -104,15 +104,12 @@ function keyCheck(event) {
 }
 
 
-var backgoundImagePositionX = 0;
+var backgroundImagePositionX = 0;
 var moveBackgoundAnimationId= 0;
 
 function moveBackgound() {
-    backgoundImagePositionX =backgoundImagePositionX-20;
-
-
-    document.getElementById("background").style.backgroundPositionX=backgoundImagePositionX+"px";
-
+    backgroundImagePositionX = backgroundImagePositionX - 20;
+    document.getElementById("background").style.backgroundPositionX = backgroundImagePositionX + "px"
 
 }
 
@@ -157,28 +154,28 @@ function boxAnimation(){
                 clearInterval(jumpAnimationNumber);
                 jumpAnimationNumber=-1;
 
-                clearInterval(moveBackgroundAnimationId);
-                moveBackgroundAnimationId = -1;
+                clearInterval(moveBackgoundAnimationId);
+                moveBackgoundAnimationId = -1;
 
-               // deadAnimationNumber =setInterval(boyDeadAnimation,100);
+                deadAnimationNumber =setInterval(boyDeadAnimation,100);
 
             }
         }
 
     }
 }
-// deadImageNumber=1
-// deadAnimationNumber=0;
-//
-// function boyDeadAnimation() {
-//
-//     deadImageNumber=deadImageNumber+1;
-//
-//     if (deadImageNumber==16){
-//         deadImageNumber = 15;
-//
-//     }
-//
-//     boy.src="assets/image/boy/Dead%20("+deadImageNumber+").png";
-//
-// }
+deadImageNumber=1
+deadAnimationNumber=0;
+
+function boyDeadAnimation() {
+
+    deadImageNumber=deadImageNumber+1;
+
+    if (deadImageNumber==16){
+        deadImageNumber = 15;
+
+    }
+
+    boy.src="assets/image/boy/Dead%20("+deadImageNumber+").png";
+
+}
