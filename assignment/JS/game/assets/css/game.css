@@ -12,16 +12,21 @@
 
 }
 .boy{
-    height:230px;
-    margin-top: 300px;
+    height:180px;
+/*230*/
+    margin-top: 357px;
+    /*300*/
     position: absolute;
 }
 .box{
-    width :400px;
-    height:300px;
+    width :200px;
+    /*400*/
+    height:200px;
+    /*300*/
 
     position: absolute;
-    margin-top: 315px;
+    margin-top: 413px;
+    /*315*/
     background-image: url("../image/ttt.gif");
     background-size:contain;
     background-repeat: no-repeat;
