@@ -31,3 +31,11 @@
     background-size:contain;
     background-repeat: no-repeat;
 }
+
+.score{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
