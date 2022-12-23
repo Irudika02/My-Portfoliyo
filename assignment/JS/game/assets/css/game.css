@@ -44,22 +44,21 @@
     height: 100vh;
     position:absolute;
     background-image: linear-gradient(90deg,#842029 0%,black 100%);
-    margin-top: -680px;
     font-size: 80px;
     font-family: Broadway;
     font-weight: bold;
     color: white;
-    text-align: center;
     display: flex;
   flex-direction: column;
     justify-content: center;
     align-items: center;
-    visibility: hidden;
+    visibility:hidden;
+
 }
 .gamebtn{
-    width:3000px;
+    width:300px;
     height: 35px;
-    background-color: yellowgreen;
+    background-color: blue;
     border-radius: 20px;
     border: none;
     font-size: 25px;

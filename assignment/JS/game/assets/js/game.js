@@ -181,8 +181,8 @@ function boyDeadAnimation() {
     if (deadImageNumber==16){
         deadImageNumber = 15;
 
-        // document.getElementById("endBox").style.visibility="visible";
-        // document.getElementById("gameOverScore").innerHTML=score;
+        document.getElementById("endBox").style.visibility="visible";
+        document.getElementById("endScore").innerHTML=score;
 
     }
 
