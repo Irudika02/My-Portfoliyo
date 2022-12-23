@@ -189,7 +189,7 @@ function boyDeadAnimation() {
     boy.src="assets/image/boy/Dead%20("+deadImageNumber+").png";
 
 }
-// function newGame() {
-//    location.reload();
-// }
+function reload() {
+   location.reload();
+}
 
