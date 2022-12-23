@@ -56,20 +56,17 @@
     align-items: center;
     visibility: hidden;
 }
-/*.button1{*/
-/*    width:250px;*/
-/*    height: 50px;*/
-/*    background: yellowgreen;*/
-/*    color: white;*/
-/*    border-radius: 10px;*/
-/*    border: none;*/
-/*    font-size: 30px;*/
-/*    font-family: Arial;*/
-/*    font-weight: bold;*/
-/*    cursor: pointer;*/
-/*    margin-top: 20px;*/
+.gamebtn{
+    width:3000px;
+    height: 35px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-top: 50px;
 
-/*}*/
+}
 /*.gameOverText{*/
 /*    width:500px;*/
 /*    margin-top: -200px;*/
