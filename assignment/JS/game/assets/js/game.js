@@ -149,6 +149,8 @@ function boxAnimation(){
         var newMarginLeft=parseInt(currentMarginLeft)-35;
         box.style.marginLeft= newMarginLeft+"px";
 
+        // document.getElementById("startBox").style.visibility="hidden";
+
         if (newMarginLeft >= -30 & newMarginLeft <=20){
             if(boyMarginTop>300){
                 clearInterval(boxAnimationId);
@@ -179,8 +181,15 @@ function boyDeadAnimation() {
     if (deadImageNumber==16){
         deadImageNumber = 15;
 
+        // document.getElementById("endBox").style.visibility="visible";
+        // document.getElementById("gameOverScore").innerHTML=score;
+
     }
 
     boy.src="assets/image/boy/Dead%20("+deadImageNumber+").png";
 
 }
+// function newGame() {
+//    location.reload();
+// }
+

@@ -39,3 +39,66 @@
     margin-top: 20px;
     position: absolute;
 }
+.endBox{
+    width:100%;
+    height: 100vh;
+    position:absolute;
+    background-image: linear-gradient(90deg,#842029 0%,black 100%);
+    margin-top: -680px;
+    font-size: 80px;
+    font-family: Broadway;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+/*.button1{*/
+/*    width:250px;*/
+/*    height: 50px;*/
+/*    background: yellowgreen;*/
+/*    color: white;*/
+/*    border-radius: 10px;*/
+/*    border: none;*/
+/*    font-size: 30px;*/
+/*    font-family: Arial;*/
+/*    font-weight: bold;*/
+/*    cursor: pointer;*/
+/*    margin-top: 20px;*/
+
+/*}*/
+/*.gameOverText{*/
+/*    width:500px;*/
+/*    margin-top: -200px;*/
+/*    position: absolute;*/
+/*    margin-left: -255px;*/
+
+/*}*/
+/*.startBox{*/
+/*    position:absolute;*/
+/*    height: 680px;*/
+/*    width: 100%;*/
+/*    margin-top: -680px;*/
+/*    background-image: url("../image/background.jpg");*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
+/*!*.idleBoy{*!*/
+/*!*    width:350px;*!*/
+/*!*    margin-top: 150px;*!*/
+/*!*    margin-left: -30px;*!*/
+/*!*}*!*/
+
+/*.startTextBox{*/
+/*    position:absolute;*/
+/*    margin-top: 450px;*/
+/*    color:chocolate;*/
+/*    font-size: 40px;*/
+/*    font-family: Arial;*/
+/*    font-weight: bold;*/
+/*    margin-left: 30px;*/
+/*}*/
